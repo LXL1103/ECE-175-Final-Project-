@@ -8,8 +8,14 @@
 #include <stdio.h>
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
+    int num;
+    
+    
     printf("Hello, World!\n");
-    printf("Hello");
+    
+    scanf("%d", &num);
+    printf("%d",num);
+    
+    
     return 0;
 }
