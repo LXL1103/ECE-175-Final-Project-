@@ -12,14 +12,14 @@ int main(int argc, const char * argv[]) {
     
     
     printf("Hello, World!\n");
-<<<<<<< Updated upstream
+
     
     scanf("%d", &num);
     printf("%d",num);
     
     
-=======
+
     printf("Hello");
->>>>>>> Stashed changes
+
     return 0;
 }
