@@ -11,7 +11,7 @@ int main(int argc, const char * argv[]) {
     int num;
     
     
-    printf("Hello, World!\n");
+    printf("Hello World!\n");
 
     
     scanf("%d", &num);
