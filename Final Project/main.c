@@ -7,7 +7,12 @@
 
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
-#include <ctype.h>
+#include <ncurses.h>
+#include <termios.h>            //termios, TCSANOW, ECHO, ICANON
+#include <unistd.h>
+#include <stdlib.h>
+
+void pressKey(void);
 
 typedef struct card_s {
 char color[10];
@@ -17,7 +22,7 @@ struct card_s *pt;
 } card;
 
 
-int main(int argc, const char * argv[]) {
+int main(void) {
     
     int usercommand; //user input to determine whether card is loaded from file or not
     
@@ -47,17 +52,14 @@ int main(int argc, const char * argv[]) {
     
     
     if (usercommand == 1) {
-        int anykeynum;
-        char anykeyletter;
-        char c;
         
-        // function to load and shuffle deck
+        fflush(stdin);
         printf("The deck is shuffled. Press any key to deal cards\n");
-        scanf("%c", &c);
-        printf("Game Starts");
+        pressKey(); //function to help read input w/out pressing enter (Source: https://stackoverflow.com/questions/1449324/how-to-simulate-press-any-key-to-continue)
         
+        printf("start");
         
-        
+    
     }
     else if (usercommand == 2) {
         
