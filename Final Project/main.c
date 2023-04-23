@@ -7,6 +7,7 @@
 
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
+#include <ctype.h>
 
 typedef struct card_s {
 char color[10];
@@ -24,45 +25,36 @@ int main(int argc, const char * argv[]) {
     
     printf("Let’s Play a Game of DOS\n");
     
-    printf("Press 1 to shuffle the DOS deck or 2 to load a deck from a file: \n");
-    scanf("%d", &usercommand);// scans userinput
+    printf("Press 1 to shuffle the DOS deck or 2 to load a deck from a file:");
+    scanf(" %d", &usercommand);// scans userinput
     
     
    
     
-    if (usercommand != 1 || usercommand != 2) { //when usercommand is not 1 or 2
+    if ((usercommand != 1) && (usercommand !=2)) { //when usercommand is not 1 or 2
         
-        
-        while ((usercommand != 1) || (usercommand != 2)) {
+        while (usercommand != 1 || usercommand != 2) {
             
             printf("Invalid command\n");
-            printf("Press 1 to shuffle the DOS deck or 2 to load a deck from a file: ");
+            printf("Press 1 to shuffle the DOS deck or 2 to load a deck from a file:");
             scanf(" %d", &usercommand);
             
             if (usercommand == 1 || usercommand == 2) {
                 break;
             }
-            
         }
-        
-        
     }
+    
     
     if (usercommand == 1) {
         int anykeynum;
-        int anykeyletter;
-        
+        char anykeyletter;
+        char c;
         
         // function to load and shuffle deck
-        printf("The deck is shuffled. Press any key to deal cards");
-        scanf("%d %c", &anykeynum, &anykeyletter);
-        
-        if
-        
-        
-        
-        
-        
+        printf("The deck is shuffled. Press any key to deal cards\n");
+        scanf("%c", &c);
+        printf("Game Starts");
         
         
         
@@ -72,7 +64,7 @@ int main(int argc, const char * argv[]) {
         
         
         //function to scan file into list
-        
+        printf("2");
     }
     
     
