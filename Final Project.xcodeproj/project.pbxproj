@@ -44,6 +44,7 @@
 			isa = PBXGroup;
 			children = (
 				386C6FA129F26DF600C7B718 /* Final Project */,
+				38E119E229F62F6E005CDD45 /* Function */,
 				386C6FA029F26DF600C7B718 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -60,9 +61,16 @@
 			isa = PBXGroup;
 			children = (
 				386C6FA229F26DF600C7B718 /* main.c */,
-				38E119DE29F541D6005CDD45 /* PressKeyFunction.c */,
 			);
 			path = "Final Project";
+			sourceTree = "<group>";
+		};
+		38E119E229F62F6E005CDD45 /* Function */ = {
+			isa = PBXGroup;
+			children = (
+				38E119DE29F541D6005CDD45 /* PressKeyFunction.c */,
+			);
+			path = Function;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

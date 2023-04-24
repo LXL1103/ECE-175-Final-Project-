@@ -15,7 +15,6 @@
 void pressKey(void)
 {
     //the struct termios stores all kinds of flags which can manipulate the I/O Interface
-    //I have an old one to save the old settings and a new
     static struct termios oldt, newt;
 
     //tcgetattr gets the parameters of the current terminal
@@ -42,3 +41,4 @@ void pressKey(void)
     tcsetattr( STDIN_FILENO, TCSANOW, &oldt);
 
 }
+
