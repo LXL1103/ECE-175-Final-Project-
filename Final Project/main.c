@@ -20,7 +20,7 @@ struct card_s *pt;
 
 //FUNCTION
 //-------------------------------------------------------------------------------------------------
-void pressKey(void); //continue the code when any key is press in the input
+
 void create_deck(card x[]); //sets up the deck by initializing the array
 void pass_out_card(card p[], card x[]); // pass out 7 cards to player. It will use player_draw function.
 void player_draw(card x[], card *ptr); //function that will help get cards from the deck at random order.
@@ -66,19 +66,23 @@ int main(void) {
     }
     
     if (usercommand == 1) {
-        
+        char userinp;
         card deck[108];
         card player_hands[2];
         
         // a function to help initialize the deck
         
     
-        fflush(stdin);
-        printf("The deck is shuffled. Press any key to deal cards\n");
-        pressKey(); //function to help read input w/out pressing enter (Source: https://stackoverflow.com/questions/1449324/how-to-simulate-press-any-key-to-continue)
+       
+        printf("The deck is shuffled. Are both players ready to start? (y/n)\n");
+        scanf(" %c", &userinp);
+        while (userinp == 'n') {
+            printf("Press y when both players are ready\n");
+            scanf(" %c", &userinp);
+        }
+       
         
-        fflush(stdout);
-        printf("\n");
+        
         printf("Start:\n");
         
         //while loop for when player1/2 has no card left in their deck or *||||||||||
