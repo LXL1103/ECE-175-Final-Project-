@@ -19,16 +19,20 @@ int value;
 char action[15];
 struct card_s *pt;
 } card;
-typedef struct color_s {
-    char name[10];
-}color;
+typedef struct player_s {
+    card player[54];
+}player;
+
 
 //FUNCTION
 //-------------------------------------------------------------------------------------------------
 
 void create_deck(card x[], int size); //sets up the deck by initializing the array
-void pass_out_card(card p[], card x[]); // pass out 7 cards to player. It will use player_draw function.
-void player_draw(card x[], card *ptr); //function that will help get cards from the deck at random order.
+void pass_out_card(player p[], card s[]); // pass out 7 cards to player.
+void center(card s[]); //center function will displayed the card in the centerline. (Full function is tbd)
+void player_draw(card s[], card *ptr); //function that will help get cards from the deck at random order.
+
+
 
 
 
@@ -74,18 +78,16 @@ int main(void) {
         int size = 108;
         card deck[108];
         card shuffledeck[108];
-        card player_hands[2];
+        player player_hands[2];
         
-        // a function to help initialize the deck
-        create_deck(deck, size);
+       
+        create_deck(deck, size); // a function to help initialize the deck
     
-        for (int i = 0; i < 108; ++i) {
-            printf("%d %s %s\n", deck[i].value, deck[i].color, deck[i].action);
-        }
+        
         
         
          
-        printf("The deck is shuffled. Are both players ready to start? (y/n)");
+        printf("The deck is shuffled. Are both players ready to start? (y/n) ");
         scanf(" %c", &userinp);
         while (userinp == 'n') {
             printf("Press y when both players are ready\n");
@@ -96,6 +98,7 @@ int main(void) {
         
         printf("Start:\n");
         
+        pass_out_card(player_hands, shuffledeck); //pass seven cards to player
         
         //while loop for when player1/2 has no card left in their deck or *||||||||||
         

@@ -17,7 +17,7 @@ int value;
 char action[15];
 struct card_s *pt;
 } card;
-typedef struct color_s {
+typedef struct color_s { //special struct that is only used in CreateDeck function
     char name[15];
 }color;
 
