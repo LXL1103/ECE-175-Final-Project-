@@ -7,7 +7,11 @@
 
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
-#include <ctype.h>
+#include <stdlib.h>
+#include <string.h>
+#define TOTAL 22
+
+
 
 typedef struct card_s {
 char color[10];
@@ -15,9 +19,29 @@ int value;
 char action[15];
 struct card_s *pt;
 } card;
+typedef struct color_s {
+    char name[10];
+}color;
+
+//FUNCTION
+//-------------------------------------------------------------------------------------------------
+
+void create_deck(card x[], int size); //sets up the deck by initializing the array
+void pass_out_card(card p[], card x[]); // pass out 7 cards to player. It will use player_draw function.
+void player_draw(card x[], card *ptr); //function that will help get cards from the deck at random order.
 
 
-int main(int argc, const char * argv[]) {
+
+
+
+
+
+
+
+
+
+//-------------------------------------------------------------------------------------------------
+int main(void) {
     
     int usercommand; //user input to determine whether card is loaded from file or not
     
@@ -26,53 +50,70 @@ int main(int argc, const char * argv[]) {
     printf("Let’s Play a Game of DOS\n");
     
     printf("Press 1 to shuffle the DOS deck or 2 to load a deck from a file:");
-    scanf(" %d", &usercommand);// scans userinput
+    scanf("%d", &usercommand);// scans userinput
     
     
    
     
     if ((usercommand != 1) && (usercommand !=2)) { //when usercommand is not 1 or 2
         
-        while (usercommand != 1 || usercommand != 2) {
+        while (usercommand != 1 || usercommand != 2) { //while loop that will repeat error message until user type in a valid number. DO NOT type a character as it will go in a infinite loop.
             
             printf("Invalid command\n");
             printf("Press 1 to shuffle the DOS deck or 2 to load a deck from a file:");
-            scanf(" %d", &usercommand);
+            scanf("%d", &usercommand);
             
-            if (usercommand == 1 || usercommand == 2) {
+            if (usercommand == 1 || usercommand == 2) { //breaks out of for loop when user enters a valid input.
                 break;
             }
         }
     }
     
-    
     if (usercommand == 1) {
-        int anykeynum;
-        char anykeyletter;
-        char c;
+        char userinp;
+        int size = 108;
+        card deck[108];
+        card shuffledeck[108];
+        card player_hands[2];
         
-        // function to load and shuffle deck
-        printf("The deck is shuffled. Press any key to deal cards\n");
-        scanf("%c", &c);
-        printf("Game Starts");
+        // a function to help initialize the deck
+        create_deck(deck, size);
+    
+        for (int i = 0; i < 108; ++i) {
+            printf("%d %s %s\n", deck[i].value, deck[i].color, deck[i].action);
+        }
         
         
+         
+        printf("The deck is shuffled. Are both players ready to start? (y/n)");
+        scanf(" %c", &userinp);
+        while (userinp == 'n') {
+            printf("Press y when both players are ready\n");
+            scanf(" %c", &userinp);
+        }
+       
         
+        
+        printf("Start:\n");
+        
+        
+        //while loop for when player1/2 has no card left in their deck or *||||||||||
+        
+        //a function to store player1's deck, display it, and request action
+        
+        //a function to display center card (Might be in main or in player1/2 function)
+        
+        //function to store player2's  deck, display it, and request action
+        //                                                                *||||||||||
+       
     }
     else if (usercommand == 2) {
         
         
-        
         //function to scan file into list
         printf("2");
+        
     }
-    
-    
-    
-    
-    
-    
-    
-    
     return 0;
 }
+
