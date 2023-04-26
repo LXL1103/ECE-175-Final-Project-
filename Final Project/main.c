@@ -8,6 +8,8 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
+#define TOTAL 22
 
 
 
@@ -17,11 +19,14 @@ int value;
 char action[15];
 struct card_s *pt;
 } card;
+typedef struct color_s {
+    char name[10];
+}color;
 
 //FUNCTION
 //-------------------------------------------------------------------------------------------------
 
-void create_deck(card x[]); //sets up the deck by initializing the array
+void create_deck(card x[], int size); //sets up the deck by initializing the array
 void pass_out_card(card p[], card x[]); // pass out 7 cards to player. It will use player_draw function.
 void player_draw(card x[], card *ptr); //function that will help get cards from the deck at random order.
 
@@ -36,7 +41,6 @@ void player_draw(card x[], card *ptr); //function that will help get cards from 
 
 
 //-------------------------------------------------------------------------------------------------
-
 int main(void) {
     
     int usercommand; //user input to determine whether card is loaded from file or not
@@ -46,7 +50,7 @@ int main(void) {
     printf("Let’s Play a Game of DOS\n");
     
     printf("Press 1 to shuffle the DOS deck or 2 to load a deck from a file:");
-    scanf(" %d", &usercommand);// scans userinput
+    scanf("%d", &usercommand);// scans userinput
     
     
    
@@ -67,14 +71,21 @@ int main(void) {
     
     if (usercommand == 1) {
         char userinp;
+        int size = 108;
         card deck[108];
+        card shuffledeck[108];
         card player_hands[2];
         
         // a function to help initialize the deck
-        
+        create_deck(deck, size);
     
-       
-        printf("The deck is shuffled. Are both players ready to start? (y/n)\n");
+        for (int i = 0; i < 108; ++i) {
+            printf("%d %s %s\n", deck[i].value, deck[i].color, deck[i].action);
+        }
+        
+        
+         
+        printf("The deck is shuffled. Are both players ready to start? (y/n)");
         scanf(" %c", &userinp);
         while (userinp == 'n') {
             printf("Press y when both players are ready\n");
@@ -85,6 +96,7 @@ int main(void) {
         
         printf("Start:\n");
         
+        
         //while loop for when player1/2 has no card left in their deck or *||||||||||
         
         //a function to store player1's deck, display it, and request action
@@ -93,14 +105,15 @@ int main(void) {
         
         //function to store player2's  deck, display it, and request action
         //                                                                *||||||||||
-    
+       
     }
     else if (usercommand == 2) {
         
         
         //function to scan file into list
         printf("2");
+        
     }
-    
     return 0;
 }
+
