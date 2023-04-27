@@ -2,7 +2,7 @@
 //  PassOutCard.c
 //  Final Project
 //
-//  Created by Man Doan on 4/26/23.
+// 
 //
 
 #include <stdio.h>

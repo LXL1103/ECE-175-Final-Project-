@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		380D1C0529FA53A30097E493 /* ShuffleDeck.c in Sources */ = {isa = PBXBuildFile; fileRef = 380D1C0429FA53A30097E493 /* ShuffleDeck.c */; };
 		386C6FA329F26DF600C7B718 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 386C6FA229F26DF600C7B718 /* main.c */; };
 		38E119E429F76CEF005CDD45 /* CreateDeck.c in Sources */ = {isa = PBXBuildFile; fileRef = 38E119E329F76CEF005CDD45 /* CreateDeck.c */; };
 		38E119E629F90B7B005CDD45 /* PassOutCard.c in Sources */ = {isa = PBXBuildFile; fileRef = 38E119E529F90B7B005CDD45 /* PassOutCard.c */; };
@@ -25,6 +26,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		380D1C0429FA53A30097E493 /* ShuffleDeck.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ShuffleDeck.c; sourceTree = "<group>"; };
 		386C6F9F29F26DF600C7B718 /* Final Project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Final Project"; sourceTree = BUILT_PRODUCTS_DIR; };
 		386C6FA229F26DF600C7B718 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		38E119E329F76CEF005CDD45 /* CreateDeck.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = CreateDeck.c; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				38E119E329F76CEF005CDD45 /* CreateDeck.c */,
+				380D1C0429FA53A30097E493 /* ShuffleDeck.c */,
 				38E119E529F90B7B005CDD45 /* PassOutCard.c */,
 			);
 			path = Function;
@@ -135,6 +138,7 @@
 			files = (
 				38E119E629F90B7B005CDD45 /* PassOutCard.c in Sources */,
 				38E119E429F76CEF005CDD45 /* CreateDeck.c in Sources */,
+				380D1C0529FA53A30097E493 /* ShuffleDeck.c in Sources */,
 				386C6FA329F26DF600C7B718 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

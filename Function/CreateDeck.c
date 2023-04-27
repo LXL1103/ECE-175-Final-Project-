@@ -2,7 +2,7 @@
 //  CreateDeck.c
 //  Final Project
 //
-//  Created by Man Doan on 4/24/23.
+// 
 //
 
 #include <stdio.h>
