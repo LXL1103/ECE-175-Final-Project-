@@ -9,7 +9,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#define TOTAL 22
+#include <time.h>
+#define TOTAL 108
+
 
 
 
@@ -19,22 +21,21 @@ int value;
 char action[15];
 struct card_s *pt;
 } card;
-typedef struct color_s {
-    char name[10];
-}color;
+typedef struct player_s {
+    card player[54];
+}player;
+
 
 //FUNCTION
 //-------------------------------------------------------------------------------------------------
 
 void create_deck(card x[], int size); //sets up the deck by initializing the array
-void pass_out_card(card p[], card x[]); // pass out 7 cards to player. It will use player_draw function.
-void player_draw(card x[], card *ptr); //function that will help get cards from the deck at random order.
+void shuffledeck(card d[], card s[], int sizeVal); //shuffle deck by randomizing the order and copying it into a shuffle array
 
 
-
-
-
-
+void pass_out_card(player p[], card s[]); // pass out 7 cards to player.
+void center(card s[]); //center function will displayed the card in the centerline. (Full function is tbd)
+void p_draw(card s[], card *ptr); //function that will help get cards from the deck at random order.
 
 
 
@@ -46,10 +47,8 @@ int main(void) {
     int usercommand; //user input to determine whether card is loaded from file or not
     
     
-    
     printf("Let’s Play a Game of DOS\n");
-    
-    printf("Press 1 to shuffle the DOS deck or 2 to load a deck from a file:");
+    printf("Press 1 to shuffle the DOS deck or 2 to load a deck from a file: ");
     scanf("%d", &usercommand);// scans userinput
     
     
@@ -71,21 +70,29 @@ int main(void) {
     
     if (usercommand == 1) {
         char userinp;
-        int size = 108;
-        card deck[108];
-        card shuffledeck[108];
-        card player_hands[2];
+        int size = TOTAL;
+        card deck[size];
+        card shuffleD[size]; //shuffle decked array
+        //player player_hands[2];
         
-        // a function to help initialize the deck
-        create_deck(deck, size);
-    
-        for (int i = 0; i < 108; ++i) {
-            printf("%d %s %s\n", deck[i].value, deck[i].color, deck[i].action);
+       
+        create_deck(deck, size); // a function to help initialize the deck
+        
+        /*for (int z = 0; z < 108; ++z) {
+            printf("%d %s %s %d\n", deck[z].value, deck[z].color, deck[z].action, z);
         }
+        */
         
+        shuffledeck(deck, shuffleD, size); //shuffle from the deck list
         
+        /*
+         //For Loop Used for debugging. Prints out ShuffleD array.
+        for (int l = 0; l < size; ++l) {
+            printf("%d %s %s %d\n", shuffleD[l].value, shuffleD[l].color, shuffleD[l].action, l);
+        }
+        */
          
-        printf("The deck is shuffled. Are both players ready to start? (y/n)");
+        printf("The deck is shuffled. Are both players ready to start? (y/n) ");
         scanf(" %c", &userinp);
         while (userinp == 'n') {
             printf("Press y when both players are ready\n");
@@ -96,6 +103,7 @@ int main(void) {
         
         printf("Start:\n");
         
+        //pass_out_card(player_hands, shuffledeck); //pass seven cards to player
         
         //while loop for when player1/2 has no card left in their deck or *||||||||||
         
@@ -116,4 +124,3 @@ int main(void) {
     }
     return 0;
 }
-
