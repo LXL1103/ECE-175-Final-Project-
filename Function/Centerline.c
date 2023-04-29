@@ -1,8 +1,8 @@
 //
-//  PassOutCard.c
+//  Centerline.c
 //  Final Project
 //
-// 
+//  Created by Man Doan on 4/28/23.
 //
 
 #include <stdio.h>
@@ -13,26 +13,25 @@ char color[10];
 int value;
 char action[15];
 struct card_s *pt;
-
 } card;
-
 
 typedef struct node_s {
     card player;
+    
     struct node_s *next;
+    struct node_s *prev;
     
 }node;
 
 
-
-node *pass_out_card(node *p, card s[], int *dt) {
+node *centerline_F(node *c, card s[], int *dt) {
     node *temp = NULL;
-    p = NULL;
+    c = NULL;
     node *head = NULL;
     int i;
     
     
-    for (i = *dt; i < 7 + *dt; ++i) {
+    for (i = *dt; i < 2 + *dt; ++i) {
         temp = (node*) malloc(sizeof(node));
         temp->player = s[i];
         temp->next = NULL;
@@ -41,25 +40,29 @@ node *pass_out_card(node *p, card s[], int *dt) {
             head = temp;
         }
         else {
-            p = (node*) malloc(sizeof(node));
-            p = head;
+            c = (node*) malloc(sizeof(node));
+            c = head;
             
-            while (p->next != NULL) {
-                
-                p = p->next;
+            while (c->next != NULL) {
+                c = c->next;
             }
-            p->next = (node*) malloc(sizeof(node));
-            p->next = temp;
+            c->next = (node*) malloc(sizeof(node));
+            c->next = temp;
         }
         
     }
     *dt = i;
     
-    p = head;
+    c = head;
     
-    return p;
+    return c;
     
 }
-
-
-
+    
+    
+    
+    
+    
+    
+    
+    

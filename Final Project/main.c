@@ -23,7 +23,15 @@ struct card_s *pt;
 } card;
 typedef struct player_s {
     card player[54];
+    struct player_s *next;
 }player;
+typedef struct node_s {
+    card player;
+    
+    struct node_s *next;
+    struct node_s *prev;
+    
+}node;
 
 
 //FUNCTION
@@ -31,10 +39,11 @@ typedef struct player_s {
 
 void create_deck(card x[], int size); //sets up the deck by initializing the array
 void shuffledeck(card d[], card s[], int sizeVal); //shuffle deck by randomizing the order and copying it into a shuffle array
+node *pass_out_card(node *p, card s[], int *dt); // pass out 7 cards to player.
+node *centerline_F(node *c, card s[], int *dt); //a link list for centerline
+void display(node *d);//displayer link list
 
 
-void pass_out_card(player p[], card s[]); // pass out 7 cards to player.
-void center(card s[]); //center function will displayed the card in the centerline. (Full function is tbd)
 void p_draw(card s[], card *ptr); //function that will help get cards from the deck at random order.
 
 
@@ -73,9 +82,10 @@ int main(void) {
         int size = TOTAL;
         card deck[size];
         card shuffleD[size]; //shuffle decked array
-        //player player_hands[2];
+        int decktrack = 0;
+        node * p1 = NULL, * p2 = NULL, *centerline = NULL;// p1 is player 1, p2 is player 2, and centerline are cards at the middle.
+        node *current = NULL;
         
-       
         create_deck(deck, size); // a function to help initialize the deck
         
         /*for (int z = 0; z < 108; ++z) {
@@ -98,12 +108,81 @@ int main(void) {
             printf("Press y when both players are ready\n");
             scanf(" %c", &userinp);
         }
-       
-        
+       /*
+        //Prints shuffledeck 16 times. DEBUGGING PURPOSES
+        for (int l = 0; l < 16; ++l) {
+            if (l < 7) {
+                printf("player 1: %d\n", shuffleD[l].value);
+                continue;
+            }
+            
+            else if (l < 14) {
+                printf("player 2: %d\n", shuffleD[l].value);
+                continue;
+            }
+            else if (l >=14) {
+                printf("centerline: %d\n", shuffleD[l].value);
+            }
+        }
+        */
         
         printf("Start:\n");
         
-        //pass_out_card(player_hands, shuffledeck); //pass seven cards to player
+        p1 = pass_out_card(p1, shuffleD, &decktrack);//deals card to player 1
+        
+        p2 = pass_out_card(p2, shuffleD, &decktrack);// deals card to player 2
+        
+        centerline = centerline_F(centerline, shuffleD, &decktrack); //adds card from shuffle deck to centerline as link list
+        
+        printf("Center: ");
+        display(centerline);
+        printf("\n");
+        
+        printf("Player 1 Hand: ");
+        display(p1);
+        printf("\n");
+        
+        printf("Player 1 Hand: ");
+        display(p2);
+        printf("\n");
+        
+        /*
+        //printing out p1/p2/centerline link list. DEBUGGING PURPOSES
+        int i = 0;
+        current = p1;
+        printf("Player 1 \n");
+        while(current != NULL) {
+            printf("%d\n", current->player.value);
+            current = current->next;
+            ++i;
+            if (i == 50) {
+                break;
+            }
+        }
+        i = 0;
+        current = p2;
+        printf("Player 2 \n");
+        while(current != NULL) {
+            printf("%d\n", current->player.value);
+            current = current->next;
+            ++i;
+            if (i == 50) {
+                break;
+            }
+        }
+        i = 0;
+        current = centerline;
+        printf("centerline \n");
+        while(current != NULL) {
+            printf("%d\n", current->player.value);
+            current = current->next;
+            ++i;
+            if (i == 50) {
+                break;
+            }
+        }
+        */
+        
         
         //while loop for when player1/2 has no card left in their deck or *||||||||||
         
@@ -116,7 +195,7 @@ int main(void) {
        
     }
     else if (usercommand == 2) {
-        
+       
         
         //function to scan file into list
         printf("2");
