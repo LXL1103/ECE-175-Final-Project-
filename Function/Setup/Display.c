@@ -17,10 +17,7 @@ struct card_s *pt;
 
 typedef struct node_s {
     card player;
-    
     struct node_s *next;
-    struct node_s *prev;
-    
 }node;
 
 

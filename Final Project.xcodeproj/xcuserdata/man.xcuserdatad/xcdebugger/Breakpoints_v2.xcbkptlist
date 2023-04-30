@@ -14,8 +14,8 @@
             filePath = "Final Project/main.c"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "64"
-            endingLineNumber = "64"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
             landmarkName = "main()"
             landmarkType = "9">
          </BreakpointContent>
@@ -30,8 +30,8 @@
             filePath = "Final Project/main.c"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "67"
-            endingLineNumber = "67"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
             landmarkName = "main()"
             landmarkType = "9">
             <Locations>
@@ -348,8 +348,8 @@
             filePath = "Final Project/main.c"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "96"
-            endingLineNumber = "96"
+            startingLineNumber = "115"
+            endingLineNumber = "115"
             landmarkName = "main()"
             landmarkType = "9">
             <Locations>
@@ -728,8 +728,8 @@
             filePath = "Final Project/main.c"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "204"
-            endingLineNumber = "204"
+            startingLineNumber = "260"
+            endingLineNumber = "260"
             landmarkName = "main()"
             landmarkType = "9">
             <Locations>
@@ -840,8 +840,8 @@
             filePath = "Final Project/main.c"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "100"
-            endingLineNumber = "100"
+            startingLineNumber = "119"
+            endingLineNumber = "119"
             landmarkName = "main()"
             landmarkType = "9">
             <Locations>
@@ -1123,8 +1123,8 @@
             filePath = "Final Project/main.c"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "104"
-            endingLineNumber = "104"
+            startingLineNumber = "123"
+            endingLineNumber = "123"
             landmarkName = "main()"
             landmarkType = "9">
             <Locations>
@@ -1171,8 +1171,8 @@
             filePath = "Final Project/main.c"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "88"
-            endingLineNumber = "88"
+            startingLineNumber = "107"
+            endingLineNumber = "107"
             landmarkName = "main()"
             landmarkType = "9">
          </BreakpointContent>
@@ -1187,8 +1187,8 @@
             filePath = "Final Project/main.c"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "94"
-            endingLineNumber = "94"
+            startingLineNumber = "113"
+            endingLineNumber = "113"
             landmarkName = "main()"
             landmarkType = "9">
             <Locations>
@@ -1265,8 +1265,8 @@
             filePath = "Function/PassOutCard.c"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "58"
-            endingLineNumber = "58"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
             landmarkName = "pass_out_card(p, s, dt)"
             landmarkType = "9">
          </BreakpointContent>
@@ -1281,8 +1281,8 @@
             filePath = "Final Project/main.c"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "133"
-            endingLineNumber = "133"
+            startingLineNumber = "154"
+            endingLineNumber = "154"
             landmarkName = "main()"
             landmarkType = "9">
          </BreakpointContent>
@@ -1297,8 +1297,8 @@
             filePath = "Final Project/main.c"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "137"
-            endingLineNumber = "137"
+            startingLineNumber = "158"
+            endingLineNumber = "158"
             landmarkName = "main()"
             landmarkType = "9">
             <Locations>
@@ -1360,8 +1360,8 @@
             filePath = "Final Project/main.c"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "127"
-            endingLineNumber = "127"
+            startingLineNumber = "146"
+            endingLineNumber = "146"
             landmarkName = "main()"
             landmarkType = "9">
          </BreakpointContent>
@@ -1369,20 +1369,20 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "12536F80-0BCD-458D-9998-10DE8CC707F3"
+            uuid = "FE1FFBD1-4A5A-4E63-A542-6FF9E5342C58"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Final Project/main.c"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "184"
-            endingLineNumber = "184"
+            startingLineNumber = "172"
+            endingLineNumber = "172"
             landmarkName = "main()"
             landmarkType = "9">
             <Locations>
                <Location
-                  uuid = "12536F80-0BCD-458D-9998-10DE8CC707F3 - 4291ffbfefe2fa5f"
+                  uuid = "FE1FFBD1-4A5A-4E63-A542-6FF9E5342C58 - 4291ffbfefe2fa3c"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -1392,12 +1392,132 @@
                   urlString = "file:///Users/man/Documents/getrepo/ECE-175-Final-Project-/Final%20Project/main.c"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "195"
-                  endingLineNumber = "195"
+                  startingLineNumber = "198"
+                  endingLineNumber = "198"
+                  offsetFromSymbolStart = "840">
+               </Location>
+               <Location
+                  uuid = "FE1FFBD1-4A5A-4E63-A542-6FF9E5342C58 - 4291ffbfefe2fa3c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Documents/getrepo/ECE-175-Final-Project-/Final%20Project/main.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "198"
+                  endingLineNumber = "198"
+                  offsetFromSymbolStart = "848">
+               </Location>
+               <Location
+                  uuid = "FE1FFBD1-4A5A-4E63-A542-6FF9E5342C58 - 4291ffbfefe2fbb8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Documents/getrepo/ECE-175-Final-Project-/Final%20Project/main.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "202"
+                  endingLineNumber = "202"
+                  offsetFromSymbolStart = "880">
+               </Location>
+               <Location
+                  uuid = "FE1FFBD1-4A5A-4E63-A542-6FF9E5342C58 - 4291ffbfefe2fbb8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Documents/getrepo/ECE-175-Final-Project-/Final%20Project/main.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "202"
+                  endingLineNumber = "202"
+                  offsetFromSymbolStart = "888">
+               </Location>
+               <Location
+                  uuid = "FE1FFBD1-4A5A-4E63-A542-6FF9E5342C58 - 4291ffbfefe2fbb8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Documents/getrepo/ECE-175-Final-Project-/Final%20Project/main.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "202"
+                  endingLineNumber = "202"
+                  offsetFromSymbolStart = "872">
+               </Location>
+               <Location
+                  uuid = "FE1FFBD1-4A5A-4E63-A542-6FF9E5342C58 - 4291ffbfefe2fb47"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Documents/getrepo/ECE-175-Final-Project-/Final%20Project/main.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "203"
+                  endingLineNumber = "203"
+                  offsetFromSymbolStart = "872">
+               </Location>
+               <Location
+                  uuid = "FE1FFBD1-4A5A-4E63-A542-6FF9E5342C58 - 4291ffbfefe2fb47"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Documents/getrepo/ECE-175-Final-Project-/Final%20Project/main.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "203"
+                  endingLineNumber = "203"
+                  offsetFromSymbolStart = "880">
+               </Location>
+               <Location
+                  uuid = "FE1FFBD1-4A5A-4E63-A542-6FF9E5342C58 - 4291ffbfefe2fb47"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Documents/getrepo/ECE-175-Final-Project-/Final%20Project/main.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "203"
+                  endingLineNumber = "203"
+                  offsetFromSymbolStart = "780">
+               </Location>
+               <Location
+                  uuid = "FE1FFBD1-4A5A-4E63-A542-6FF9E5342C58 - 4291ffbfefe2fb47"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Documents/getrepo/ECE-175-Final-Project-/Final%20Project/main.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "203"
+                  endingLineNumber = "203"
                   offsetFromSymbolStart = "788">
                </Location>
                <Location
-                  uuid = "12536F80-0BCD-458D-9998-10DE8CC707F3 - 4291ffbfefe2fa5f"
+                  uuid = "FE1FFBD1-4A5A-4E63-A542-6FF9E5342C58 - 4291ffbfefe2fb47"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -1407,12 +1527,12 @@
                   urlString = "file:///Users/man/Documents/getrepo/ECE-175-Final-Project-/Final%20Project/main.c"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "195"
-                  endingLineNumber = "195"
-                  offsetFromSymbolStart = "796">
+                  startingLineNumber = "203"
+                  endingLineNumber = "203"
+                  offsetFromSymbolStart = "808">
                </Location>
                <Location
-                  uuid = "12536F80-0BCD-458D-9998-10DE8CC707F3 - 4291ffbfefe2fa7e"
+                  uuid = "FE1FFBD1-4A5A-4E63-A542-6FF9E5342C58 - 4291ffbfefe2fb47"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -1422,12 +1542,12 @@
                   urlString = "file:///Users/man/Documents/getrepo/ECE-175-Final-Project-/Final%20Project/main.c"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "196"
-                  endingLineNumber = "196"
-                  offsetFromSymbolStart = "788">
+                  startingLineNumber = "203"
+                  endingLineNumber = "203"
+                  offsetFromSymbolStart = "816">
                </Location>
                <Location
-                  uuid = "12536F80-0BCD-458D-9998-10DE8CC707F3 - 4291ffbfefe2fa7e"
+                  uuid = "FE1FFBD1-4A5A-4E63-A542-6FF9E5342C58 - 4291ffbfefe2f8e1"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -1437,9 +1557,24 @@
                   urlString = "file:///Users/man/Documents/getrepo/ECE-175-Final-Project-/Final%20Project/main.c"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "196"
-                  endingLineNumber = "196"
-                  offsetFromSymbolStart = "796">
+                  startingLineNumber = "177"
+                  endingLineNumber = "177"
+                  offsetFromSymbolStart = "812">
+               </Location>
+               <Location
+                  uuid = "FE1FFBD1-4A5A-4E63-A542-6FF9E5342C58 - 4291ffbfefe2f8c2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Documents/getrepo/ECE-175-Final-Project-/Final%20Project/main.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "176"
+                  endingLineNumber = "176"
+                  offsetFromSymbolStart = "804">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -1447,17 +1582,775 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "55D22AF5-C194-4304-AAF8-F4FAF70ABC7B"
+            uuid = "5880F909-D413-426C-AACF-5751BA8424CC"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Final Project/main.c"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "143"
-            endingLineNumber = "143"
+            startingLineNumber = "152"
+            endingLineNumber = "152"
             landmarkName = "main()"
             landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0BB90CEF-E417-43B3-A423-9E3CB19B9F03"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Final Project/main.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "153"
+            endingLineNumber = "153"
+            landmarkName = "main()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "138BF406-B8BE-49FA-BC3E-6EC86C18D39F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Function/PassOutCard.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "pass_out_card(p, s, dt)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "138BF406-B8BE-49FA-BC3E-6EC86C18D39F - fdbf6226fb94deef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "pass_out_card"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Documents/getrepo/ECE-175-Final-Project-/Function/PassOutCard.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "176">
+               </Location>
+               <Location
+                  uuid = "138BF406-B8BE-49FA-BC3E-6EC86C18D39F - fdbf6226fb94de0c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "pass_out_card"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Documents/getrepo/ECE-175-Final-Project-/Function/PassOutCard.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "188">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "20D4F90A-F1C7-4016-9102-BCA56B71FAA9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Final Project/main.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "157"
+            endingLineNumber = "157"
+            landmarkName = "main()"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "20D4F90A-F1C7-4016-9102-BCA56B71FAA9 - 4291ffbfefe2f44d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Documents/getrepo/ECE-175-Final-Project-/Final%20Project/main.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "149"
+                  endingLineNumber = "149"
+                  offsetFromSymbolStart = "728">
+               </Location>
+               <Location
+                  uuid = "20D4F90A-F1C7-4016-9102-BCA56B71FAA9 - 4291ffbfefe2f5c9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Documents/getrepo/ECE-175-Final-Project-/Final%20Project/main.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "153"
+                  endingLineNumber = "153"
+                  offsetFromSymbolStart = "672">
+               </Location>
+               <Location
+                  uuid = "20D4F90A-F1C7-4016-9102-BCA56B71FAA9 - 4291ffbfefe2f65e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Documents/getrepo/ECE-175-Final-Project-/Final%20Project/main.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "164"
+                  endingLineNumber = "164"
+                  offsetFromSymbolStart = "672">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5AAFE685-A4AA-4F45-8CE3-FD72FAA34864"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Final Project/main.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "187"
+            endingLineNumber = "187"
+            landmarkName = "main()"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "5AAFE685-A4AA-4F45-8CE3-FD72FAA34864 - 4291ffbfefe2fa7e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Documents/getrepo/ECE-175-Final-Project-/Final%20Project/main.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "196"
+                  endingLineNumber = "196"
+                  offsetFromSymbolStart = "812">
+               </Location>
+               <Location
+                  uuid = "5AAFE685-A4AA-4F45-8CE3-FD72FAA34864 - 4291ffbfefe2fa7e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Documents/getrepo/ECE-175-Final-Project-/Final%20Project/main.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "196"
+                  endingLineNumber = "196"
+                  offsetFromSymbolStart = "820">
+               </Location>
+               <Location
+                  uuid = "5AAFE685-A4AA-4F45-8CE3-FD72FAA34864 - 4291ffbfefe2fcc3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Documents/getrepo/ECE-175-Final-Project-/Final%20Project/main.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "207"
+                  endingLineNumber = "207"
+                  offsetFromSymbolStart = "812">
+               </Location>
+               <Location
+                  uuid = "5AAFE685-A4AA-4F45-8CE3-FD72FAA34864 - 4291ffbfefe2fcc3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Documents/getrepo/ECE-175-Final-Project-/Final%20Project/main.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "207"
+                  endingLineNumber = "207"
+                  offsetFromSymbolStart = "820">
+               </Location>
+               <Location
+                  uuid = "5AAFE685-A4AA-4F45-8CE3-FD72FAA34864 - 4291ffbfefe2fce2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Documents/getrepo/ECE-175-Final-Project-/Final%20Project/main.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "208"
+                  endingLineNumber = "208"
+                  offsetFromSymbolStart = "812">
+               </Location>
+               <Location
+                  uuid = "5AAFE685-A4AA-4F45-8CE3-FD72FAA34864 - 4291ffbfefe2fce2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Documents/getrepo/ECE-175-Final-Project-/Final%20Project/main.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "208"
+                  endingLineNumber = "208"
+                  offsetFromSymbolStart = "820">
+               </Location>
+               <Location
+                  uuid = "5AAFE685-A4AA-4F45-8CE3-FD72FAA34864 - 4291ffbfefe2f8c2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Documents/getrepo/ECE-175-Final-Project-/Final%20Project/main.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "176"
+                  endingLineNumber = "176"
+                  offsetFromSymbolStart = "804">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C74D100C-3AA5-4708-BA2E-C84E23515D13"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Final Project/main.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "232"
+            endingLineNumber = "232"
+            landmarkName = "main()"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "C74D100C-3AA5-4708-BA2E-C84E23515D13 - 4291ffbfefe2fab0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Documents/getrepo/ECE-175-Final-Project-/Final%20Project/main.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "194"
+                  endingLineNumber = "194"
+                  offsetFromSymbolStart = "988">
+               </Location>
+               <Location
+                  uuid = "C74D100C-3AA5-4708-BA2E-C84E23515D13 - 4291ffbfefe2fc6e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Documents/getrepo/ECE-175-Final-Project-/Final%20Project/main.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "212"
+                  endingLineNumber = "212"
+                  offsetFromSymbolStart = "1164">
+               </Location>
+               <Location
+                  uuid = "C74D100C-3AA5-4708-BA2E-C84E23515D13 - 4291ffbfefe2fe50"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Documents/getrepo/ECE-175-Final-Project-/Final%20Project/main.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "226"
+                  endingLineNumber = "226"
+                  offsetFromSymbolStart = "1264">
+               </Location>
+               <Location
+                  uuid = "C74D100C-3AA5-4708-BA2E-C84E23515D13 - 4291ffbfefe2fffb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Documents/getrepo/ECE-175-Final-Project-/Final%20Project/main.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "231"
+                  endingLineNumber = "231"
+                  offsetFromSymbolStart = "1292">
+               </Location>
+               <Location
+                  uuid = "C74D100C-3AA5-4708-BA2E-C84E23515D13 - 4291ffbfefe2e1cc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Documents/getrepo/ECE-175-Final-Project-/Final%20Project/main.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "246"
+                  endingLineNumber = "246"
+                  offsetFromSymbolStart = "824">
+               </Location>
+               <Location
+                  uuid = "C74D100C-3AA5-4708-BA2E-C84E23515D13 - 4291ffbfefe2e1cc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Documents/getrepo/ECE-175-Final-Project-/Final%20Project/main.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "246"
+                  endingLineNumber = "246"
+                  offsetFromSymbolStart = "832">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6976E024-5950-41CE-8E2C-220F662EF4F0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Final Project/main.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "222"
+            endingLineNumber = "222"
+            landmarkName = "main()"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "6976E024-5950-41CE-8E2C-220F662EF4F0 - 4291ffbfefe2fb05"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Documents/getrepo/ECE-175-Final-Project-/Final%20Project/main.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "205"
+                  endingLineNumber = "205"
+                  offsetFromSymbolStart = "1232">
+               </Location>
+               <Location
+                  uuid = "6976E024-5950-41CE-8E2C-220F662EF4F0 - 4291ffbfefe2fb24"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Documents/getrepo/ECE-175-Final-Project-/Final%20Project/main.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "206"
+                  endingLineNumber = "206"
+                  offsetFromSymbolStart = "1232">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9AA9487F-E06B-4F7B-9C07-D2DDFCCD8B46"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Final Project/main.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "223"
+            endingLineNumber = "223"
+            landmarkName = "main()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DEB56AA6-7E99-4F26-B1D2-5EA6849278B0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Final Project/main.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "224"
+            endingLineNumber = "224"
+            landmarkName = "main()"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "DEB56AA6-7E99-4F26-B1D2-5EA6849278B0 - 4291ffbfefe2fce2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Documents/getrepo/ECE-175-Final-Project-/Final%20Project/main.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "208"
+                  endingLineNumber = "208"
+                  offsetFromSymbolStart = "1256">
+               </Location>
+               <Location
+                  uuid = "DEB56AA6-7E99-4F26-B1D2-5EA6849278B0 - 4291ffbfefe2fc81"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Documents/getrepo/ECE-175-Final-Project-/Final%20Project/main.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "209"
+                  endingLineNumber = "209"
+                  offsetFromSymbolStart = "1124">
+               </Location>
+               <Location
+                  uuid = "DEB56AA6-7E99-4F26-B1D2-5EA6849278B0 - 4291ffbfefe2fc81"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Documents/getrepo/ECE-175-Final-Project-/Final%20Project/main.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "209"
+                  endingLineNumber = "209"
+                  offsetFromSymbolStart = "1256">
+               </Location>
+               <Location
+                  uuid = "DEB56AA6-7E99-4F26-B1D2-5EA6849278B0 - 4291ffbfefe2fc81"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Documents/getrepo/ECE-175-Final-Project-/Final%20Project/main.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "209"
+                  endingLineNumber = "209"
+                  offsetFromSymbolStart = "1164">
+               </Location>
+               <Location
+                  uuid = "DEB56AA6-7E99-4F26-B1D2-5EA6849278B0 - 4291ffbfefe2fca0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Documents/getrepo/ECE-175-Final-Project-/Final%20Project/main.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "210"
+                  endingLineNumber = "210"
+                  offsetFromSymbolStart = "1176">
+               </Location>
+               <Location
+                  uuid = "DEB56AA6-7E99-4F26-B1D2-5EA6849278B0 - 4291ffbfefe2fdea"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Documents/getrepo/ECE-175-Final-Project-/Final%20Project/main.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "216"
+                  endingLineNumber = "216"
+                  offsetFromSymbolStart = "1200">
+               </Location>
+               <Location
+                  uuid = "DEB56AA6-7E99-4F26-B1D2-5EA6849278B0 - 4291ffbfefe2feb1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Documents/getrepo/ECE-175-Final-Project-/Final%20Project/main.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "225"
+                  endingLineNumber = "225"
+                  offsetFromSymbolStart = "1380">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F970F117-8741-4DAC-95C8-8F22E7C1F8D8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Final Project/main.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "188"
+            endingLineNumber = "188"
+            landmarkName = "main()"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "F970F117-8741-4DAC-95C8-8F22E7C1F8D8 - 4291ffbfefe2e1cc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Documents/getrepo/ECE-175-Final-Project-/Final%20Project/main.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "246"
+                  endingLineNumber = "246"
+                  offsetFromSymbolStart = "824">
+               </Location>
+               <Location
+                  uuid = "F970F117-8741-4DAC-95C8-8F22E7C1F8D8 - 4291ffbfefe2e1cc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Documents/getrepo/ECE-175-Final-Project-/Final%20Project/main.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "246"
+                  endingLineNumber = "246"
+                  offsetFromSymbolStart = "832">
+               </Location>
+               <Location
+                  uuid = "F970F117-8741-4DAC-95C8-8F22E7C1F8D8 - 4291ffbfefe2e1cc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Documents/getrepo/ECE-175-Final-Project-/Final%20Project/main.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "246"
+                  endingLineNumber = "246"
+                  offsetFromSymbolStart = "1120">
+               </Location>
+               <Location
+                  uuid = "F970F117-8741-4DAC-95C8-8F22E7C1F8D8 - 4291ffbfefe2e1cc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Documents/getrepo/ECE-175-Final-Project-/Final%20Project/main.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "246"
+                  endingLineNumber = "246"
+                  offsetFromSymbolStart = "1128">
+               </Location>
+               <Location
+                  uuid = "F970F117-8741-4DAC-95C8-8F22E7C1F8D8 - 4291ffbfefe2e18a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Documents/getrepo/ECE-175-Final-Project-/Final%20Project/main.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "248"
+                  endingLineNumber = "248"
+                  offsetFromSymbolStart = "1012">
+               </Location>
+               <Location
+                  uuid = "F970F117-8741-4DAC-95C8-8F22E7C1F8D8 - 4291ffbfefe2e18a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Documents/getrepo/ECE-175-Final-Project-/Final%20Project/main.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "248"
+                  endingLineNumber = "248"
+                  offsetFromSymbolStart = "1020">
+               </Location>
+               <Location
+                  uuid = "F970F117-8741-4DAC-95C8-8F22E7C1F8D8 - 4291ffbfefe2e18a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Documents/getrepo/ECE-175-Final-Project-/Final%20Project/main.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "248"
+                  endingLineNumber = "248"
+                  offsetFromSymbolStart = "868">
+               </Location>
+               <Location
+                  uuid = "F970F117-8741-4DAC-95C8-8F22E7C1F8D8 - 4291ffbfefe2e18a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Documents/getrepo/ECE-175-Final-Project-/Final%20Project/main.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "248"
+                  endingLineNumber = "248"
+                  offsetFromSymbolStart = "876">
+               </Location>
+               <Location
+                  uuid = "F970F117-8741-4DAC-95C8-8F22E7C1F8D8 - 4291ffbfefe2e18a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Documents/getrepo/ECE-175-Final-Project-/Final%20Project/main.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "248"
+                  endingLineNumber = "248"
+                  offsetFromSymbolStart = "920">
+               </Location>
+               <Location
+                  uuid = "F970F117-8741-4DAC-95C8-8F22E7C1F8D8 - 4291ffbfefe2e18a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Documents/getrepo/ECE-175-Final-Project-/Final%20Project/main.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "248"
+                  endingLineNumber = "248"
+                  offsetFromSymbolStart = "928">
+               </Location>
+               <Location
+                  uuid = "F970F117-8741-4DAC-95C8-8F22E7C1F8D8 - 4291ffbfefe2e18a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Documents/getrepo/ECE-175-Final-Project-/Final%20Project/main.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "248"
+                  endingLineNumber = "248"
+                  offsetFromSymbolStart = "964">
+               </Location>
+               <Location
+                  uuid = "F970F117-8741-4DAC-95C8-8F22E7C1F8D8 - 4291ffbfefe2e18a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Documents/getrepo/ECE-175-Final-Project-/Final%20Project/main.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "248"
+                  endingLineNumber = "248"
+                  offsetFromSymbolStart = "972">
+               </Location>
+               <Location
+                  uuid = "F970F117-8741-4DAC-95C8-8F22E7C1F8D8 - 4291ffbfefe2f934"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Documents/getrepo/ECE-175-Final-Project-/Final%20Project/main.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "190"
+                  endingLineNumber = "190"
+                  offsetFromSymbolStart = "872">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

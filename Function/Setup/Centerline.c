@@ -24,10 +24,9 @@ typedef struct node_s {
 }node;
 
 
-node *centerline_F(node *c, card s[], int *dt) {
+void centerline_F(node **c, card s[], int *dt) {
     node *temp = NULL;
-    c = NULL;
-    node *head = NULL;
+    node **head = (node**) malloc(sizeof(node));;
     int i;
     
     
@@ -36,26 +35,23 @@ node *centerline_F(node *c, card s[], int *dt) {
         temp->player = s[i];
         temp->next = NULL;
         
-        if (head == NULL) {
-            head = temp;
+        if (*head == NULL) {
+            *head = temp;
         }
         else {
-            c = (node*) malloc(sizeof(node));
-            c = head;
+            *c = (node*) malloc(sizeof(node));
+            *c = *head;
             
-            while (c->next != NULL) {
-                c = c->next;
+            while ((*c)->next != NULL) {
+                *c = (*c)->next;
             }
-            c->next = (node*) malloc(sizeof(node));
-            c->next = temp;
+            (*c)->next = (node*) malloc(sizeof(node));
+            (*c)->next = temp;
         }
         
     }
     *dt = i;
     
-    c = head;
-    
-    return c;
     
 }
     

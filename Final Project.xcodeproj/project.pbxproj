@@ -10,6 +10,9 @@
 		380D1C0529FA53A30097E493 /* ShuffleDeck.c in Sources */ = {isa = PBXBuildFile; fileRef = 380D1C0429FA53A30097E493 /* ShuffleDeck.c */; };
 		380D1C0729FCDD080097E493 /* Centerline.c in Sources */ = {isa = PBXBuildFile; fileRef = 380D1C0629FCDD080097E493 /* Centerline.c */; };
 		380D1C0929FCE1160097E493 /* Display.c in Sources */ = {isa = PBXBuildFile; fileRef = 380D1C0829FCE1160097E493 /* Display.c */; };
+		3832187129FE2A710047D342 /* EreaseUserInput.c in Sources */ = {isa = PBXBuildFile; fileRef = 3832187029FE2A710047D342 /* EreaseUserInput.c */; };
+		3832187329FE37CC0047D342 /* GetUserPlay.c in Sources */ = {isa = PBXBuildFile; fileRef = 3832187229FE37CC0047D342 /* GetUserPlay.c */; };
+		3832187629FE3B5A0047D342 /* MatchInputToList.c in Sources */ = {isa = PBXBuildFile; fileRef = 3832187529FE3B5A0047D342 /* MatchInputToList.c */; };
 		386C6FA329F26DF600C7B718 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 386C6FA229F26DF600C7B718 /* main.c */; };
 		38E119E429F76CEF005CDD45 /* CreateDeck.c in Sources */ = {isa = PBXBuildFile; fileRef = 38E119E329F76CEF005CDD45 /* CreateDeck.c */; };
 		38E119E629F90B7B005CDD45 /* PassOutCard.c in Sources */ = {isa = PBXBuildFile; fileRef = 38E119E529F90B7B005CDD45 /* PassOutCard.c */; };
@@ -31,6 +34,9 @@
 		380D1C0429FA53A30097E493 /* ShuffleDeck.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ShuffleDeck.c; sourceTree = "<group>"; };
 		380D1C0629FCDD080097E493 /* Centerline.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Centerline.c; sourceTree = "<group>"; };
 		380D1C0829FCE1160097E493 /* Display.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Display.c; sourceTree = "<group>"; };
+		3832187029FE2A710047D342 /* EreaseUserInput.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = EreaseUserInput.c; sourceTree = "<group>"; };
+		3832187229FE37CC0047D342 /* GetUserPlay.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = GetUserPlay.c; sourceTree = "<group>"; };
+		3832187529FE3B5A0047D342 /* MatchInputToList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = MatchInputToList.c; sourceTree = "<group>"; };
 		386C6F9F29F26DF600C7B718 /* Final Project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Final Project"; sourceTree = BUILT_PRODUCTS_DIR; };
 		386C6FA229F26DF600C7B718 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		38E119E329F76CEF005CDD45 /* CreateDeck.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = CreateDeck.c; sourceTree = "<group>"; };
@@ -48,6 +54,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3832187729FE3B690047D342 /* Setup */ = {
+			isa = PBXGroup;
+			children = (
+				380D1C0429FA53A30097E493 /* ShuffleDeck.c */,
+				38E119E329F76CEF005CDD45 /* CreateDeck.c */,
+				38E119E529F90B7B005CDD45 /* PassOutCard.c */,
+				380D1C0629FCDD080097E493 /* Centerline.c */,
+				380D1C0829FCE1160097E493 /* Display.c */,
+			);
+			path = Setup;
+			sourceTree = "<group>";
+		};
 		386C6F9629F26DF600C7B718 = {
 			isa = PBXGroup;
 			children = (
@@ -76,11 +94,10 @@
 		38E119E229F62F6E005CDD45 /* Function */ = {
 			isa = PBXGroup;
 			children = (
-				38E119E329F76CEF005CDD45 /* CreateDeck.c */,
-				380D1C0429FA53A30097E493 /* ShuffleDeck.c */,
-				38E119E529F90B7B005CDD45 /* PassOutCard.c */,
-				380D1C0629FCDD080097E493 /* Centerline.c */,
-				380D1C0829FCE1160097E493 /* Display.c */,
+				3832187729FE3B690047D342 /* Setup */,
+				3832187029FE2A710047D342 /* EreaseUserInput.c */,
+				3832187229FE37CC0047D342 /* GetUserPlay.c */,
+				3832187529FE3B5A0047D342 /* MatchInputToList.c */,
 			);
 			path = Function;
 			sourceTree = "<group>";
@@ -145,8 +162,11 @@
 				38E119E629F90B7B005CDD45 /* PassOutCard.c in Sources */,
 				380D1C0729FCDD080097E493 /* Centerline.c in Sources */,
 				380D1C0929FCE1160097E493 /* Display.c in Sources */,
+				3832187629FE3B5A0047D342 /* MatchInputToList.c in Sources */,
 				38E119E429F76CEF005CDD45 /* CreateDeck.c in Sources */,
 				380D1C0529FA53A30097E493 /* ShuffleDeck.c in Sources */,
+				3832187329FE37CC0047D342 /* GetUserPlay.c in Sources */,
+				3832187129FE2A710047D342 /* EreaseUserInput.c in Sources */,
 				386C6FA329F26DF600C7B718 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
