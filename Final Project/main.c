@@ -33,14 +33,17 @@ typedef struct node_s {
 
 void create_deck(card x[], int size); //sets up the deck by initializing the array
 void shuffledeck(card d[], card s[], int sizeVal); //shuffle deck by randomizing the order and copying it into a shuffle array
-//node *pass_out_card(node *p, card s[], int *dt); // pass out 7 cards to player.
-void pass_out_card(node **p, card s[], int *dt);
+void pass_out_card(node **p, card s[], int *dt);// pass out 7 cards to player
 void centerline_F(node **c, card s[], int *dt); //a link list for centerline
 void display(node *d);//displayer link list
 void ereaseinp(card userinp[]);
 void getuserplay(card s[], int num);
+void centerlinesize(node *c, int * size);
 
 
+//bool valid_play_with_centerline(card userinp[], node *c);
+bool isValidWithCenter(card userinp[], node *c, int numcard);
+int determine_type_match(card userinp[], node *c, int numcard);
 
 node *addcard(node *p, card s[]); //function to add card to a link list (p1/p2/centerline)
 bool isPlayerHandEmpty(node *p); //function to check if player's hand is empty
@@ -48,7 +51,7 @@ bool match_input_to_list(node *p, card userinp[], int size);
 
 
 
-
+//node *pass_out_card(node *p, card s[], int *dt); // pass out 7 cards to player.
 
 
 
@@ -91,6 +94,10 @@ int main(void) {
         int sleepseconds = 3000; //in miliseconds
         int numbercard = 0;
         int noplaycounter = 0;
+        int centersize = 0;
+        int playerturn = 0;
+        int match_id; //
+        
         //int id; //if id = 1; Player1. if id = 2; Player2. if id = 3; Center.
         
         card deck[size];
@@ -103,6 +110,7 @@ int main(void) {
         
         bool isPlayer1Empty = false, isPlayer2Empty = false;
         bool islistMatch1 = false;
+        bool isValidCenter = false;
         
         
         create_deck(deck, size); // a function to help initialize the deck
@@ -114,12 +122,12 @@ int main(void) {
         
         shuffledeck(deck, shuffleD, size); //shuffle from the deck list
         
-        
+        /*
          //For Loop Used for debugging. Prints out ShuffleD array.
         for (int l = 0; l < 16; ++l) {
             printf("%d %s %s %d\n", shuffleD[l].value, shuffleD[l].color, shuffleD[l].action, l);
         }
-        
+        */
          
         printf("The deck is shuffled. Are both players ready to start? (y/n) ");
         scanf(" %c", &userinp);
@@ -188,48 +196,71 @@ int main(void) {
         */
         
         while ((isPlayer1Empty == false) || (isPlayer2Empty == false)) {
+            
+            playerturn = 0;
             current = centerline;
             printf("Centerline: ");
             display(centerline);
+            centerlinesize(centerline , &centersize);
             printf("\n\n");
             
             printf("Player 1 Hand : ");
             display(p1);
             printf("\n\n");
             
-            
-            while (islistMatch1 == false) { //gets user input and determine if userinput exist in player's hand
-                
-                printf("How many cards do you want to play on %s %d %s (Type value between 1-10): ",current->player.color ,current->player.value, current->player.action);
-                scanf("%d", &numbercard);
-                printf("\n");
-                
-                if (numbercard == 0) {//Press Zero when no cards can be played and it will proceed to the next section in centerline
-                    current = current->next;
-                    if (current == NULL) {
-                        break;
-                    }
-                    continue;
-                }
-                while (numbercard > 10) { //placed in a loop until user input is in range between 1-10
-                    printf("Invalid, try again.\n\n");
+            while (playerturn != centersize) {
+                isValidCenter = false;
+                islistMatch1 = false;
+                while (isValidCenter == false) { //gets user input and determine if userinput exist in player's hand
+                    
                     printf("How many cards do you want to play on %s %d %s (Type value between 1-10): ",current->player.color ,current->player.value, current->player.action);
                     scanf("%d", &numbercard);
+                    printf("\n");
+                    if (numbercard == 0) {
+                        break;
+                    }
+                    while (numbercard > 10) { //placed in a loop until user input is in range between 1-10
+                        printf("Invalid, try again.\n\n");
+                        printf("How many cards do you want to play on %s %d %s (Type value between 1-10): ",current->player.color ,current->player.value, current->player.action);
+                        scanf("%d", &numbercard);
+                    }
+                    
+                    ereaseinp(usercardinp);//ereases previous input
+                    getuserplay(usercardinp, numbercard); //gets user to type in card they want to play
+                    
+                    islistMatch1 = match_input_to_list(p1, usercardinp, numbercard); // checks if typed in card matches whats on player's hand
+                    
+                    if (islistMatch1 == false) {//Error message for when user types in invalid input.
+                        display(p1);
+                        printf("\n\n");
+                        printf("Invalid, Please make sure both spelling, capatilization, and order is typed correctly\n\n");
+                        continue;
+                    }
+                    isValidCenter = isValidWithCenter(usercardinp, current, numbercard);
+                    
+                    if (isValidCenter == false) {
+                        printf("Invalid Input. Please make sure the card typed will add up to center. If no card can add up, please press 0 card in the next prompt.\n\n");
+                    }
                 }
-                 
-                ereaseinp(usercardinp);//ereases previous input
-                getuserplay(usercardinp, numbercard); //gets user to type in card they want to play
+                match_id = determine_type_match(usercardinp, current, numbercard);
                 
-                islistMatch1 = match_input_to_list(p1, usercardinp, numbercard); // checks if typed in card matches whats on player's hand
                 
-                if (islistMatch1 == false) {//Error message for when user types in invalid input.
-                    printf("\n\n");
-                    printf("Invalid, Please make sure both spelling, capatilization, and order is typed correctly\n\n");
+                if (match_id == 1) {
+                    printf("Single match\n");
                 }
-            }
-            
-            
-            
+                
+                else if (match_id == 2) {
+                    printf("Double Color Match\n");
+                }
+                
+                
+                ++playerturn;
+                current = current->next;
+                if (playerturn == centersize) {
+                    break;
+                }
+        }
+            printf("Good\n");
             
            
             if (decktrack == 107) { //when deck is exhausted, if statement will execute to determine points from player hand

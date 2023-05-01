@@ -44,7 +44,7 @@ bool match_input_to_list(node *p, card userinp[], int size) {
     }
     
     
-    if (counter == size) {
+    if (counter >= size) {
         return true;
     }
     

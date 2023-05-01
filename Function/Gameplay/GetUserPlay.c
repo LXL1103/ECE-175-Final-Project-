@@ -27,6 +27,15 @@ typedef struct node_s {
 void getuserplay(card s[], int num) {
     for (int i = 0; i < num; ++i) {
         printf("Type in Card #%d that you want to play. Include color, number, and action as shown in your hand: ", i + 1);
-        scanf("%s %d %s", s[i].color, &s[i].value, s[i].action);
+        scanf("%s%d%s", s[i].color, &s[i].value, s[i].action);
+        /*
+        scanf("%s ",s[i].color);
+        scanf(" %d ", &s[i].value);
+        scanf(" %s",s[i].action);
+         */
     }
+    
+    
+    
+    
 }
