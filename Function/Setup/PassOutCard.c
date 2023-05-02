@@ -92,10 +92,12 @@ void pass_out_card(node **p, card s[], int *dt) {
     
      
     
-        
+    *p = *head;
     
+    /*
+     
         int z = 0;
-        *p = *head;
+        *p = *head
     
             current = *p; //change to p1/p2/centerline
             //printf("Player 1 \n");
@@ -107,7 +109,7 @@ void pass_out_card(node **p, card s[], int *dt) {
                     break;
                 }
             }
-        
+        */
         //send card from shuffle deck onto player hand and making sure to set the card collected from the shuffled deck to be "free" (deleting).
         
         *dt = i;//returns dt to decktracker in main.

@@ -35,8 +35,8 @@ void create_deck(card x[], int size) {
     strcpy(c[1].name, "Red");
     strcpy(c[2].name, "Green");
     strcpy(c[3].name, "Blue");
-    strcpy(c[4].name, "Anycolor");
-    strcpy(c[5].name, "Anynumber");
+    strcpy(c[4].name, "AnyColor");
+    strcpy(c[5].name, "AnyNumber");
     
     for (i = 0; i < sizecolor - 2; ++i) { //initializing numbered colors
         for (j = 1; j < 11; ++j) {

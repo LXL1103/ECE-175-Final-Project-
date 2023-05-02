@@ -10,6 +10,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <time.h>
+#include <stdbool.h>
 #define TOTAL 108
 
 
@@ -34,9 +35,14 @@ typedef struct node_s {
 
 void create_deck(card x[], int size); //sets up the deck by initializing the array
 void shuffledeck(card d[], card s[], int sizeVal); //shuffle deck by randomizing the order and copying it into a shuffle array
-
-
 void pass_out_card(node **p, card s[], int *dt); // pass out 7 cards to player.
+void pass_out_card_to_centerline(node **p, card s[], int *dt);
+void display(node *d);
+
+bool player1Action(node **p1, node **p2, node **c, card s[], int *dt);
+
+int counter(node *p);
+
 void center(card s[]); //center function will displayed the card in the centerline. (Full function is tbd)
 void p_draw(card s[], card *ptr); //function that will help get cards from the deck at random order.
 
@@ -79,7 +85,9 @@ int main(void) {
         card shuffleD[size]; //shuffle decked array
         node *player1_Hand = NULL;
         node *player2_Hand= NULL;
-        //player player_hands[2];
+        node *centerline = NULL;
+        
+        bool isPlayer1Empty = false, isPlayer2Empty = false;
         
         
         create_deck(deck, size); // a function to help initialize the deck
@@ -91,12 +99,12 @@ int main(void) {
         
         shuffledeck(deck, shuffleD, size); //shuffle from the deck list
         
-        
+        /*
          //For Loop Used for debugging. Prints out ShuffleD array.
-         for (int l = 0; l < 14; ++l) {
+         for (int l = 0; l < 16; ++l) {
          printf("%d %s %s %d\n", shuffleD[l].value, shuffleD[l].color, shuffleD[l].action, l);
          }
-         
+         */
         
         printf("The deck is shuffled. Are both players ready to start? (y/n) ");
         scanf(" %c", &userinp);
@@ -110,12 +118,27 @@ int main(void) {
         printf("Start:\n");
         
         pass_out_card(&player1_Hand, shuffleD, &decktracker); //pass seven cards to player
+        //display(player1_Hand);
         
+        pass_out_card(&player2_Hand, shuffleD, &decktracker);
+        //display(player2_Hand);
+        pass_out_card_to_centerline(&centerline, shuffleD, &decktracker);
         
+        //display(centerline);
         
-        
-        
-        pass_out_card(&player2_Hand, shuffleD, &decktracker); 
+        while ((isPlayer1Empty == false) || (isPlayer2Empty == false)) {
+            /*
+            printf("Centerline: ");
+            display(centerline);
+            
+            printf("Player 1 Hand: ");
+            display(player1_Hand);
+             */
+            isPlayer1Empty = player1Action(&player1_Hand, &player2_Hand, &centerline, shuffleD, &decktracker);
+            
+            
+            
+        }
         
         
         //while loop for when player1/2 has no card left in their deck or *||||||||||

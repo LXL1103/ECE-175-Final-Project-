@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		380D1C0529FA53A30097E493 /* ShuffleDeck.c in Sources */ = {isa = PBXBuildFile; fileRef = 380D1C0429FA53A30097E493 /* ShuffleDeck.c */; };
 		386C6FA329F26DF600C7B718 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 386C6FA229F26DF600C7B718 /* main.c */; };
+		38C7DB312A0187FA00CB6B7E /* Display.c in Sources */ = {isa = PBXBuildFile; fileRef = 38C7DB302A0187FA00CB6B7E /* Display.c */; };
+		38C7DB332A01887800CB6B7E /* PassCardToCenterline.c in Sources */ = {isa = PBXBuildFile; fileRef = 38C7DB322A01887800CB6B7E /* PassCardToCenterline.c */; };
+		38C7DB362A0191D800CB6B7E /* Player1Action.c in Sources */ = {isa = PBXBuildFile; fileRef = 38C7DB352A0191D800CB6B7E /* Player1Action.c */; };
+		38C7DB382A0192F500CB6B7E /* CounterHand.c in Sources */ = {isa = PBXBuildFile; fileRef = 38C7DB372A0192F500CB6B7E /* CounterHand.c */; };
+		38C7DB3C2A019BE900CB6B7E /* Determineplay.c in Sources */ = {isa = PBXBuildFile; fileRef = 38C7DB3B2A019BE900CB6B7E /* Determineplay.c */; };
+		38C7DB3E2A01AF8E00CB6B7E /* Match-id-Command.c in Sources */ = {isa = PBXBuildFile; fileRef = 38C7DB3D2A01AF8D00CB6B7E /* Match-id-Command.c */; };
 		38E119E429F76CEF005CDD45 /* CreateDeck.c in Sources */ = {isa = PBXBuildFile; fileRef = 38E119E329F76CEF005CDD45 /* CreateDeck.c */; };
 		38E119E629F90B7B005CDD45 /* PassOutCard.c in Sources */ = {isa = PBXBuildFile; fileRef = 38E119E529F90B7B005CDD45 /* PassOutCard.c */; };
 /* End PBXBuildFile section */
@@ -29,6 +35,12 @@
 		380D1C0429FA53A30097E493 /* ShuffleDeck.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ShuffleDeck.c; sourceTree = "<group>"; };
 		386C6F9F29F26DF600C7B718 /* Final Project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Final Project"; sourceTree = BUILT_PRODUCTS_DIR; };
 		386C6FA229F26DF600C7B718 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		38C7DB302A0187FA00CB6B7E /* Display.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Display.c; sourceTree = "<group>"; };
+		38C7DB322A01887800CB6B7E /* PassCardToCenterline.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = PassCardToCenterline.c; sourceTree = "<group>"; };
+		38C7DB352A0191D800CB6B7E /* Player1Action.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = Player1Action.c; path = Setup/Player1Action.c; sourceTree = "<group>"; };
+		38C7DB372A0192F500CB6B7E /* CounterHand.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = CounterHand.c; sourceTree = "<group>"; };
+		38C7DB3B2A019BE900CB6B7E /* Determineplay.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Determineplay.c; sourceTree = "<group>"; };
+		38C7DB3D2A01AF8D00CB6B7E /* Match-id-Command.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Match-id-Command.c"; sourceTree = "<group>"; };
 		38E119E329F76CEF005CDD45 /* CreateDeck.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = CreateDeck.c; sourceTree = "<group>"; };
 		38E119E529F90B7B005CDD45 /* PassOutCard.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = PassOutCard.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -69,12 +81,26 @@
 			path = "Final Project";
 			sourceTree = "<group>";
 		};
-		38E119E229F62F6E005CDD45 /* Function */ = {
+		38C7DB342A01915400CB6B7E /* Setup */ = {
 			isa = PBXGroup;
 			children = (
 				38E119E329F76CEF005CDD45 /* CreateDeck.c */,
 				380D1C0429FA53A30097E493 /* ShuffleDeck.c */,
 				38E119E529F90B7B005CDD45 /* PassOutCard.c */,
+				38C7DB322A01887800CB6B7E /* PassCardToCenterline.c */,
+			);
+			path = Setup;
+			sourceTree = "<group>";
+		};
+		38E119E229F62F6E005CDD45 /* Function */ = {
+			isa = PBXGroup;
+			children = (
+				38C7DB342A01915400CB6B7E /* Setup */,
+				38C7DB372A0192F500CB6B7E /* CounterHand.c */,
+				38C7DB352A0191D800CB6B7E /* Player1Action.c */,
+				38C7DB3B2A019BE900CB6B7E /* Determineplay.c */,
+				38C7DB3D2A01AF8D00CB6B7E /* Match-id-Command.c */,
+				38C7DB302A0187FA00CB6B7E /* Display.c */,
 			);
 			path = Function;
 			sourceTree = "<group>";
@@ -136,10 +162,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38C7DB332A01887800CB6B7E /* PassCardToCenterline.c in Sources */,
+				38C7DB382A0192F500CB6B7E /* CounterHand.c in Sources */,
+				38C7DB3C2A019BE900CB6B7E /* Determineplay.c in Sources */,
 				38E119E629F90B7B005CDD45 /* PassOutCard.c in Sources */,
 				38E119E429F76CEF005CDD45 /* CreateDeck.c in Sources */,
+				38C7DB362A0191D800CB6B7E /* Player1Action.c in Sources */,
 				380D1C0529FA53A30097E493 /* ShuffleDeck.c in Sources */,
 				386C6FA329F26DF600C7B718 /* main.c in Sources */,
+				38C7DB3E2A01AF8E00CB6B7E /* Match-id-Command.c in Sources */,
+				38C7DB312A0187FA00CB6B7E /* Display.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
