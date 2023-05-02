@@ -21,9 +21,12 @@ int value;
 char action[15];
 struct card_s *pt;
 } card;
-typedef struct player_s {
-    card player[54];
-}player;
+typedef struct node_s {
+    card player;
+    struct node_s *next;
+    struct node_s *prev;
+    
+}node;
 
 
 //FUNCTION
@@ -33,7 +36,7 @@ void create_deck(card x[], int size); //sets up the deck by initializing the arr
 void shuffledeck(card d[], card s[], int sizeVal); //shuffle deck by randomizing the order and copying it into a shuffle array
 
 
-void pass_out_card(player p[], card s[]); // pass out 7 cards to player.
+void pass_out_card(node **p, card s[], int *dt); // pass out 7 cards to player.
 void center(card s[]); //center function will displayed the card in the centerline. (Full function is tbd)
 void p_draw(card s[], card *ptr); //function that will help get cards from the deck at random order.
 
@@ -52,7 +55,7 @@ int main(void) {
     scanf("%d", &usercommand);// scans userinput
     
     
-   
+    
     
     if ((usercommand != 1) && (usercommand !=2)) { //when usercommand is not 1 or 2
         
@@ -71,39 +74,49 @@ int main(void) {
     if (usercommand == 1) {
         char userinp;
         int size = TOTAL;
+        int decktracker = 0;
         card deck[size];
         card shuffleD[size]; //shuffle decked array
+        node *player1_Hand = NULL;
+        node *player2_Hand= NULL;
         //player player_hands[2];
         
-       
+        
         create_deck(deck, size); // a function to help initialize the deck
         
         /*for (int z = 0; z < 108; ++z) {
-            printf("%d %s %s %d\n", deck[z].value, deck[z].color, deck[z].action, z);
-        }
-        */
+         printf("%d %s %s %d\n", deck[z].value, deck[z].color, deck[z].action, z);
+         }
+         */
         
         shuffledeck(deck, shuffleD, size); //shuffle from the deck list
         
-        /*
+        
          //For Loop Used for debugging. Prints out ShuffleD array.
-        for (int l = 0; l < size; ++l) {
-            printf("%d %s %s %d\n", shuffleD[l].value, shuffleD[l].color, shuffleD[l].action, l);
-        }
-        */
+         for (int l = 0; l < 14; ++l) {
+         printf("%d %s %s %d\n", shuffleD[l].value, shuffleD[l].color, shuffleD[l].action, l);
+         }
          
+        
         printf("The deck is shuffled. Are both players ready to start? (y/n) ");
         scanf(" %c", &userinp);
         while (userinp == 'n') {
             printf("Press y when both players are ready\n");
             scanf(" %c", &userinp);
         }
-       
+        
         
         
         printf("Start:\n");
         
-        //pass_out_card(player_hands, shuffledeck); //pass seven cards to player
+        pass_out_card(&player1_Hand, shuffleD, &decktracker); //pass seven cards to player
+        
+        
+        
+        
+        
+        pass_out_card(&player2_Hand, shuffleD, &decktracker); 
+        
         
         //while loop for when player1/2 has no card left in their deck or *||||||||||
         
@@ -113,7 +126,7 @@ int main(void) {
         
         //function to store player2's  deck, display it, and request action
         //                                                                *||||||||||
-       
+        
     }
     else if (usercommand == 2) {
         
@@ -122,12 +135,5 @@ int main(void) {
         printf("2");
         
     }
-=======
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
-    printf("pp");
-    printf("Hey");
-
-    return 0;
 }
+
