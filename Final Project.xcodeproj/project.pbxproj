@@ -16,6 +16,8 @@
 		38C7DB3C2A019BE900CB6B7E /* Determineplay.c in Sources */ = {isa = PBXBuildFile; fileRef = 38C7DB3B2A019BE900CB6B7E /* Determineplay.c */; };
 		38C7DB3E2A01AF8E00CB6B7E /* Match-id-Command.c in Sources */ = {isa = PBXBuildFile; fileRef = 38C7DB3D2A01AF8D00CB6B7E /* Match-id-Command.c */; };
 		38C7DB402A0231BE00CB6B7E /* DeleteCard.c in Sources */ = {isa = PBXBuildFile; fileRef = 38C7DB3F2A0231BE00CB6B7E /* DeleteCard.c */; };
+		38C7DB422A0358CD00CB6B7E /* Player2Action.c in Sources */ = {isa = PBXBuildFile; fileRef = 38C7DB412A0358CD00CB6B7E /* Player2Action.c */; };
+		38C7DB442A035BF600CB6B7E /* ScanFDeck.c in Sources */ = {isa = PBXBuildFile; fileRef = 38C7DB432A035BF600CB6B7E /* ScanFDeck.c */; };
 		38E119E429F76CEF005CDD45 /* CreateDeck.c in Sources */ = {isa = PBXBuildFile; fileRef = 38E119E329F76CEF005CDD45 /* CreateDeck.c */; };
 		38E119E629F90B7B005CDD45 /* PassOutCard.c in Sources */ = {isa = PBXBuildFile; fileRef = 38E119E529F90B7B005CDD45 /* PassOutCard.c */; };
 /* End PBXBuildFile section */
@@ -43,6 +45,8 @@
 		38C7DB3B2A019BE900CB6B7E /* Determineplay.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Determineplay.c; sourceTree = "<group>"; };
 		38C7DB3D2A01AF8D00CB6B7E /* Match-id-Command.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Match-id-Command.c"; sourceTree = "<group>"; };
 		38C7DB3F2A0231BE00CB6B7E /* DeleteCard.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = DeleteCard.c; sourceTree = "<group>"; };
+		38C7DB412A0358CD00CB6B7E /* Player2Action.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Player2Action.c; sourceTree = "<group>"; };
+		38C7DB432A035BF600CB6B7E /* ScanFDeck.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ScanFDeck.c; path = ../../../../ScanFDeck.c; sourceTree = "<group>"; };
 		38E119E329F76CEF005CDD45 /* CreateDeck.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = CreateDeck.c; sourceTree = "<group>"; };
 		38E119E529F90B7B005CDD45 /* PassOutCard.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = PassOutCard.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -90,6 +94,7 @@
 				380D1C0429FA53A30097E493 /* ShuffleDeck.c */,
 				38E119E529F90B7B005CDD45 /* PassOutCard.c */,
 				38C7DB322A01887800CB6B7E /* PassCardToCenterline.c */,
+				38C7DB432A035BF600CB6B7E /* ScanFDeck.c */,
 			);
 			path = Setup;
 			sourceTree = "<group>";
@@ -104,6 +109,7 @@
 				38C7DB3D2A01AF8D00CB6B7E /* Match-id-Command.c */,
 				38C7DB302A0187FA00CB6B7E /* Display.c */,
 				38C7DB3F2A0231BE00CB6B7E /* DeleteCard.c */,
+				38C7DB412A0358CD00CB6B7E /* Player2Action.c */,
 			);
 			path = Function;
 			sourceTree = "<group>";
@@ -166,12 +172,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				38C7DB332A01887800CB6B7E /* PassCardToCenterline.c in Sources */,
+				38C7DB422A0358CD00CB6B7E /* Player2Action.c in Sources */,
 				38C7DB382A0192F500CB6B7E /* CounterHand.c in Sources */,
 				38C7DB3C2A019BE900CB6B7E /* Determineplay.c in Sources */,
 				38E119E629F90B7B005CDD45 /* PassOutCard.c in Sources */,
 				38C7DB402A0231BE00CB6B7E /* DeleteCard.c in Sources */,
 				38E119E429F76CEF005CDD45 /* CreateDeck.c in Sources */,
 				38C7DB362A0191D800CB6B7E /* Player1Action.c in Sources */,
+				38C7DB442A035BF600CB6B7E /* ScanFDeck.c in Sources */,
 				380D1C0529FA53A30097E493 /* ShuffleDeck.c in Sources */,
 				386C6FA329F26DF600C7B718 /* main.c in Sources */,
 				38C7DB3E2A01AF8E00CB6B7E /* Match-id-Command.c in Sources */,

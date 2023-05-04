@@ -38,8 +38,10 @@ void shuffledeck(card d[], card s[], int sizeVal); //shuffle deck by randomizing
 void pass_out_card(node **p, card s[], int *dt); // pass out 7 cards to player.
 void pass_out_card_to_centerline(node **p, card s[], int *dt);
 void display(node *d);
+void scanFDeck(card cardInfo[]);
 
 bool player1Action(node **p1, node **p2, node **c, card s[], int *dt);
+bool player2Action(node **p2, node **p1, node **c, card s[], int *dt);
 
 int counter(node *p);
 
@@ -81,6 +83,7 @@ int main(void) {
         char userinp;
         int size = TOTAL;
         int decktracker = 0;
+
         card deck[size];
         card shuffleD[size]; //shuffle decked array
         node *player1_Hand = NULL;
@@ -127,36 +130,99 @@ int main(void) {
         //display(centerline);
         
         while ((isPlayer1Empty == false) || (isPlayer2Empty == false)) {
-            /*
-            printf("Centerline: ");
-            display(centerline);
             
-            printf("Player 1 Hand: ");
-            display(player1_Hand);
-             */
-            isPlayer1Empty = player1Action(&player1_Hand, &player2_Hand, &centerline, shuffleD, &decktracker);
-            
-            
+            isPlayer1Empty = player1Action(&player1_Hand, &player2_Hand, &centerline, shuffleD, &decktracker); //a function to request player 1 action.
+            isPlayer2Empty = player2Action(&player2_Hand, &player1_Hand, &centerline, shuffleD, &decktracker);
             
         }
         
+        //function to determine the points based on player1 and player 2 hand and who ever has the highest point would return an id number (id = 1 is player 1 and id = 2 is player 2)
         
-        //while loop for when player1/2 has no card left in their deck or *||||||||||
         
-        //a function to store player1's deck, display it, and request action
         
-        //a function to display center card (Might be in main or in player1/2 function)
         
-        //function to store player2's  deck, display it, and request action
-        //                                                                *||||||||||
         
     }
     else if (usercommand == 2) {
         
-        
         //function to scan file into list
-        printf("2");
+                char userinp;
+        
+                int decktracker = 0;
+                card deck[108];
+                card shuffleD[108]; //shuffle decked array
+                node* player1_Hand = NULL;
+                node* player2_Hand = NULL;
+                node* centerline = NULL;
+                FILE *inp = NULL;;
+                int size = 108;
+
+                bool isPlayer1Empty = false, isPlayer2Empty = false;
+
+
+                scanFDeck(deck); //shuffle from the deck file
+                /*
+                for (int z = 0; z < 108; ++z) {
+                 printf("%d %s %s %d\n", deck[z].value, deck[z].color, deck[z].action, z);
+                 }
+                 */
+                shuffledeck(deck, shuffleD, size);
+                
+
+                /*
+                 //For Loop Used for debugging. Prints out ShuffleD array.
+                 for (int l = 0; l < 16; ++l) {
+                 printf("%d %s %s %d\n", shuffleD[l].value, shuffleD[l].color, shuffleD[l].action, l);
+                 }
+                 */
+
+                printf("The deck is shuffled. Are both players ready to start? (y/n) ");
+                scanf(" %c", &userinp);
+                while (userinp == 'n') {
+                    printf("Press y when both players are ready\n");
+                    scanf(" %c", &userinp);
+                }
+                pass_out_card(&player1_Hand, shuffleD, &decktracker); //pass seven cards to player
+        //display(player1_Hand);
+        
+                pass_out_card(&player2_Hand, shuffleD, &decktracker);
+        //display(player2_Hand);
+                pass_out_card_to_centerline(&centerline, shuffleD, &decktracker);
+
+
+                printf("Start:\n");
+
+                pass_out_card(&player1_Hand, shuffleD, &decktracker); //pass seven cards to player
+                //display(player1_Hand);
+
+                pass_out_card(&player2_Hand, shuffleD, &decktracker);
+                //display(player2_Hand);
+                pass_out_card_to_centerline(&centerline, shuffleD, &decktracker);
+
+                //display(centerline);
+
+                while ((isPlayer1Empty == false) || (isPlayer2Empty == false)) {
+                    /*
+                    printf("Centerline: ");
+                    display(centerline);
+
+                    printf("Player 1 Hand: ");
+                    display(player1_Hand);
+                     */
+                    isPlayer1Empty = player1Action(&player1_Hand, &player2_Hand, &centerline, shuffleD, &decktracker);
+
+
+
+                }
+
+
+               
+
+
+            }
+        
+        
         
     }
-}
+
 

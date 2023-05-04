@@ -34,25 +34,32 @@ typedef struct node_s {
 void deletecard(node **p_turn, node *current)  {
     
     if (current == *p_turn) {
-        *p_turn = current->next;
+        *p_turn = current;
     }
     
     else {
         
         current->prev->next = current->next;
-        
+        //*p_turn = current->prev->next;
     }
     
     if (current->next == NULL) {
         current = current->prev;
+        
+        while ((*p_turn)->next != NULL) {
+            *p_turn = (*p_turn)->next;
+        }
+        if((*p_turn)->next != NULL) {
+            *p_turn = current;
+        }
+        free(current->next);
     }
     else {
         current->next->prev = current->prev;
-        
+        *p_turn = current->next->prev;
     }
     
-    *p_turn = current->prev->next;
-    *p_turn = current->next->prev;
+    
     
     
     free(current);

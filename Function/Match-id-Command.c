@@ -29,22 +29,27 @@ void deletecard(node **p_turn, node *current);
 
 
 void match_id_command(node **p_turn, node **p_affected, node **c, int *dt, card s[], int numbcard, int numbhand, int userinp[], int id) {
+    //p_turn is the player who's currently making a play
+    //p_affected is the player that's going to get their deck alter if p_turn makes a double or single clor match play.
+    
     node *current = NULL;
-    node *temp = NULL;
     node *head = NULL;
     
-    node* holder1 = NULL;
-    node *holder2 = NULL;
-    node *temp2 = NULL;
-    int holder3 = 0;
-    int headnull = 1;
+   
     
     int i = 0, j = 0;
     
     
     switch (id) {
         case 1:
+            // A function to help make player_affected draw a card.
+            //A function to help discard one card from p_turn card
+            //a function to add a card to centerline.
+            break;
         case 2:
+            // A function to help make player_affected draw a card.
+            //A function to help discard two card from p_turn card
+            //a function to add a card to centerline.
             break;
         case 3:
         case 4:
@@ -52,12 +57,18 @@ void match_id_command(node **p_turn, node **p_affected, node **c, int *dt, card 
             head = *p_turn;
             
             for (i = 0; i < numbcard ; ++i) {
-                current = head;
-                for (j = 0; j < userinp[i] - 1; ++j) {
+                
+                
+                
+                for (j = 0; j < userinp[i]; ++j) {
+                    if (j==0) {
+                        current = head;
+                    }
                     current = current->next;
+                    
                 }
                 deletecard(p_turn, current);
-    
+                
             }
             
             display(*p_turn);

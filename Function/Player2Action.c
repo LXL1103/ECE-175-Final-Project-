@@ -1,9 +1,10 @@
 //
-//  Player1Action.c
+//  Player2Action.c
 //  Final Project
 //
-//  Created by Man Doan on 5/2/23.
+//  Created by Man Doan on 5/3/23.
 //
+
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -35,7 +36,7 @@ void match_id_command(node **p_turn,node **p_affected, node **c, int *dt, card s
 
 
 
-bool player1Action(node **p1, node **p2, node **c, card s[], int *dt) {
+bool player2Action(node **p2, node **p1, node **c, card s[], int *dt) {
     int numberhand = 0; //total number of cards in players hand
     int numbercard = 0;//how many card the user want to play
     int userinp[3];
@@ -57,8 +58,8 @@ bool player1Action(node **p1, node **p2, node **c, card s[], int *dt) {
         printf("Centerline: ");
         display(*c); //display centerline
         
-        printf("Player %d Hand: ");
-        display(*p1);
+        printf("Player 2 Hand: ");
+        display(*p2);
         
         //printf("Please choose from 1 to %d", numberhand);
         printf("Select the NUMBER of card you want to play for %s %d %s (Select between 1-2 or press 0 to move onto the next card in centerline): ", current->player.color, current->player.value , current->player.action);
@@ -82,7 +83,7 @@ bool player1Action(node **p1, node **p2, node **c, card s[], int *dt) {
             printf("(Note: if you want to go back to number of card prompt, press 11): ");
             
             scanf("%d", &userinp[i]);
-            if (userinp[i] == 11) { //breaks out of for loop
+            if (userinp[i] == 11) {//breaks out of for loop
                 break;
             }
             
@@ -91,7 +92,7 @@ bool player1Action(node **p1, node **p2, node **c, card s[], int *dt) {
             continue;
         }
         
-        match_id = determineplay(*p1, current, userinp, numbercard, numberhand);
+        match_id = determineplay(*p2, current, userinp, numbercard, numberhand);
         
         while (match_id == 0)  { //error message if the player makes a play that doesn;t match centerline
             printf("Invalid play, please try again.\n\n");
@@ -108,15 +109,15 @@ bool player1Action(node **p1, node **p2, node **c, card s[], int *dt) {
                 break;
             }
             
-            match_id = determineplay(*p1, current, userinp, numbercard, numberhand);
+            match_id = determineplay(*p2, current, userinp, numbercard, numberhand);
         }
         if (userinp[i] == 11) {
             continue;
         }
         
-        match_id_command(&(*p1),&(*p2), &(*c), &(*dt), s, numbercard, numberhand, userinp, match_id);
+        match_id_command(&(*p2),&(*p1), &(*c), &(*dt), s, numbercard, numberhand, userinp, match_id);
         
-        display(*p1);
+        display(*p2);
         current = current->next;
     }
     
@@ -127,3 +128,4 @@ bool player1Action(node **p1, node **p2, node **c, card s[], int *dt) {
     return NULL;
     
 }
+

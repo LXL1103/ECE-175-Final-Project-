@@ -34,15 +34,16 @@ int determineplay(node *p, node *c, int userinp[], int numcard, int numhand) {
     int totval = 0;
     int colormatch = 0;
     int anynumbermatch = 0;
+    
  
     
     for (i = 0; i < numcard; ++i) {
         temp = p;
-        for(j = 0; j < userinp[i] -1; ++j) {
+        for(j = 0; j < userinp[i] -1; ++j) {//traverse to card the player chose
             temp = temp->next;
            
     }
-        if ((strcmp(temp->player.action, "AnyNumber") == 0) || (strcmp(c->player.action, "AnyNumber") == 0)) {
+        if ((strcmp(temp->player.action, "AnyNumber") == 0) || (strcmp(c->player.action, "AnyNumber") == 0)) { //scans for attribute of the card the plyaer played
             ++anynumbermatch;
             continue;
         }
@@ -64,7 +65,7 @@ int determineplay(node *p, node *c, int userinp[], int numcard, int numhand) {
         
     
     
-    
+    //the following determine what kind of play the player made
     if (((colormatch == numcard) && (totval == c->player.value) && (numcard == 2)) || ((strcmp(c->player.action, "AnyColor") ==0) && (numcard == 2))) {
         printf("Double Color Match\n");
         tempnum = 1;
