@@ -25,41 +25,45 @@ typedef struct node_s {
 }node;
 
 void display(node *d);
+void deletecard(node **p_turn, node *current);
 
 
 void match_id_command(node **p_turn, node **p_affected, node **c, int *dt, card s[], int numbcard, int numbhand, int userinp[], int id) {
     node *current = NULL;
     node *temp = NULL;
+    node *head = NULL;
+    
+    node* holder1 = NULL;
+    node *holder2 = NULL;
+    node *temp2 = NULL;
+    int holder3 = 0;
+    int headnull = 1;
+    
     int i = 0, j = 0;
     
     
     switch (id) {
         case 1:
-            break;
         case 2:
-            current = *p_turn;
+            break;
+        case 3:
+        case 4:
+            //current = *p_turn;
+            head = *p_turn;
+            
             for (i = 0; i < numbcard ; ++i) {
-                current = *p_turn;
+                current = head;
                 for (j = 0; j < userinp[i] - 1; ++j) {
                     current = current->next;
                 }
-                if ((userinp[i] - 1) == 0) {
-                    current = current->next;
-                    current->prev = NULL;
-                }
-                current->prev->next = current->next;
-                current->next->prev = current->prev;
+                deletecard(p_turn, current);
+    
             }
             
             display(*p_turn);
             
             
             
-            
-            
-            
-            
     }
-    
     
 }

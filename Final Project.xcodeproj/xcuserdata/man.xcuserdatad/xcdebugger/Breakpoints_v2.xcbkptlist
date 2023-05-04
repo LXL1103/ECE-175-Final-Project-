@@ -3094,8 +3094,8 @@
             filePath = "Function/Setup/Player1Action.c"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "120"
-            endingLineNumber = "120"
+            startingLineNumber = "122"
+            endingLineNumber = "122"
             landmarkName = "player1Action(p1, p2, c, s, dt)"
             landmarkType = "9">
             <Locations>
@@ -3294,6 +3294,51 @@
                   endingLineNumber = "130"
                   offsetFromSymbolStart = "1000">
                </Location>
+               <Location
+                  uuid = "ADFA1A17-46E6-40FF-97AB-8DC66C58F4D0 - 73fde84addc50da1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "player1Action"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Setup/Player1Action.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "129"
+                  endingLineNumber = "129"
+                  offsetFromSymbolStart = "1000">
+               </Location>
+               <Location
+                  uuid = "ADFA1A17-46E6-40FF-97AB-8DC66C58F4D0 - 73fde84addc50d6f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "player1Action"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Setup/Player1Action.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "131"
+                  endingLineNumber = "131"
+                  offsetFromSymbolStart = "1024">
+               </Location>
+               <Location
+                  uuid = "ADFA1A17-46E6-40FF-97AB-8DC66C58F4D0 - 73fde84addc50d0e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "player1Action"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Setup/Player1Action.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "132"
+                  endingLineNumber = "132"
+                  offsetFromSymbolStart = "1024">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -3307,8 +3352,8 @@
             filePath = "Function/Setup/Player1Action.c"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "90"
-            endingLineNumber = "90"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
             landmarkName = "player1Action(p1, p2, c, s, dt)"
             landmarkType = "9">
          </BreakpointContent>
@@ -3323,8 +3368,8 @@
             filePath = "Function/Setup/Player1Action.c"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "75"
-            endingLineNumber = "75"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
             landmarkName = "player1Action(p1, p2, c, s, dt)"
             landmarkType = "9">
             <Locations>
@@ -3416,8 +3461,8 @@
             filePath = "Function/Setup/Player1Action.c"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "92"
-            endingLineNumber = "92"
+            startingLineNumber = "94"
+            endingLineNumber = "94"
             landmarkName = "player1Action(p1, p2, c, s, dt)"
             landmarkType = "9">
             <Locations>
@@ -3556,6 +3601,21 @@
                   endingLineNumber = "93"
                   offsetFromSymbolStart = "612">
                </Location>
+               <Location
+                  uuid = "524FA2C6-DA42-458F-8588-26E6C8AF0493 - 73fde84addc509c3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "player1Action"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Setup/Player1Action.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "95"
+                  endingLineNumber = "95"
+                  offsetFromSymbolStart = "636">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -3563,14 +3623,14 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "EA378F61-FC37-48B8-A3D9-6D6A73261F91"
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Function/Determineplay.c"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "62"
-            endingLineNumber = "62"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
             landmarkName = "determineplay(p, c, userinp, numcard, numhand)"
             landmarkType = "9">
             <Locations>
@@ -3619,6 +3679,276 @@
                   endingLineNumber = "49"
                   offsetFromSymbolStart = "284">
                </Location>
+               <Location
+                  uuid = "EA378F61-FC37-48B8-A3D9-6D6A73261F91 - 308a5b63d8a4ebbc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "412">
+               </Location>
+               <Location
+                  uuid = "EA378F61-FC37-48B8-A3D9-6D6A73261F91 - 308a5b63d8a4ebbc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "448">
+               </Location>
+               <Location
+                  uuid = "EA378F61-FC37-48B8-A3D9-6D6A73261F91 - 308a5b63d8a4ec5b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "468">
+               </Location>
+               <Location
+                  uuid = "EA378F61-FC37-48B8-A3D9-6D6A73261F91 - 308a5b63d8a4ec19"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "500">
+               </Location>
+               <Location
+                  uuid = "EA378F61-FC37-48B8-A3D9-6D6A73261F91 - 308a5b63d8a4ecf6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "484">
+               </Location>
+               <Location
+                  uuid = "EA378F61-FC37-48B8-A3D9-6D6A73261F91 - 308a5b63d8a4ecf6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "504">
+               </Location>
+               <Location
+                  uuid = "EA378F61-FC37-48B8-A3D9-6D6A73261F91 - 308a5b63d8a4ecf6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "500">
+               </Location>
+               <Location
+                  uuid = "EA378F61-FC37-48B8-A3D9-6D6A73261F91 - 308a5b63d8a4ecf6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "480">
+               </Location>
+               <Location
+                  uuid = "EA378F61-FC37-48B8-A3D9-6D6A73261F91 - 308a5b63d8a4ecf6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "468">
+               </Location>
+               <Location
+                  uuid = "EA378F61-FC37-48B8-A3D9-6D6A73261F91 - 308a5b63d8a4ecb4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "484">
+               </Location>
+               <Location
+                  uuid = "EA378F61-FC37-48B8-A3D9-6D6A73261F91 - 308a5b63d8a4ecb4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "464">
+               </Location>
+               <Location
+                  uuid = "EA378F61-FC37-48B8-A3D9-6D6A73261F91 - 308a5b63d8a4ecb4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "468">
+               </Location>
+               <Location
+                  uuid = "EA378F61-FC37-48B8-A3D9-6D6A73261F91 - 308a5b63d8a4edce"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "612">
+               </Location>
+               <Location
+                  uuid = "EA378F61-FC37-48B8-A3D9-6D6A73261F91 - 308a5b63d8a4edce"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "608">
+               </Location>
+               <Location
+                  uuid = "EA378F61-FC37-48B8-A3D9-6D6A73261F91 - 308a5b63d8a4ec95"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "472">
+               </Location>
+               <Location
+                  uuid = "EA378F61-FC37-48B8-A3D9-6D6A73261F91 - 308a5b63d8a4ed72"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "468">
+               </Location>
+               <Location
+                  uuid = "EA378F61-FC37-48B8-A3D9-6D6A73261F91 - 308a5b63d8a4ed53"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "464">
+               </Location>
+               <Location
+                  uuid = "EA378F61-FC37-48B8-A3D9-6D6A73261F91 - 308a5b63d8a4ecf6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "464">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -3632,8 +3962,8 @@
             filePath = "Function/Determineplay.c"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "41"
-            endingLineNumber = "41"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
             landmarkName = "determineplay(p, c, userinp, numcard, numhand)"
             landmarkType = "9">
             <Locations>
@@ -3674,14 +4004,14 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "B6561559-B0D3-4884-A1D8-834BD5024EEF"
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Function/Determineplay.c"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "46"
-            endingLineNumber = "46"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
             landmarkName = "determineplay(p, c, userinp, numcard, numhand)"
             landmarkType = "9">
             <Locations>
@@ -3715,224 +4045,8 @@
                   endingLineNumber = "43"
                   offsetFromSymbolStart = "184">
                </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "63E05258-E7AD-46E9-B254-55766A1421CF"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Function/Setup/Player1Action.c"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "117"
-            endingLineNumber = "117"
-            landmarkName = "player1Action(p1, p2, c, s, dt)"
-            landmarkType = "9">
-            <Locations>
                <Location
-                  uuid = "63E05258-E7AD-46E9-B254-55766A1421CF - 73fde84addc50876"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "player1Action"
-                  moduleName = "Final Project"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Setup/Player1Action.c"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "108"
-                  endingLineNumber = "108"
-                  offsetFromSymbolStart = "756">
-               </Location>
-               <Location
-                  uuid = "63E05258-E7AD-46E9-B254-55766A1421CF - 73fde84addc50815"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "player1Action"
-                  moduleName = "Final Project"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Setup/Player1Action.c"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "109"
-                  endingLineNumber = "109"
-                  offsetFromSymbolStart = "756">
-               </Location>
-               <Location
-                  uuid = "63E05258-E7AD-46E9-B254-55766A1421CF - 73fde84addc50815"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "player1Action"
-                  moduleName = "Final Project"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Setup/Player1Action.c"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "109"
-                  endingLineNumber = "109"
-                  offsetFromSymbolStart = "752">
-               </Location>
-               <Location
-                  uuid = "63E05258-E7AD-46E9-B254-55766A1421CF - 73fde84addc50adb"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "player1Action"
-                  moduleName = "Final Project"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Setup/Player1Action.c"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "119"
-                  endingLineNumber = "119"
-                  offsetFromSymbolStart = "844">
-               </Location>
-               <Location
-                  uuid = "63E05258-E7AD-46E9-B254-55766A1421CF - 73fde84addc50bd3"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "player1Action"
-                  moduleName = "Final Project"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Setup/Player1Action.c"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "111"
-                  endingLineNumber = "111"
-                  offsetFromSymbolStart = "752">
-               </Location>
-               <Location
-                  uuid = "63E05258-E7AD-46E9-B254-55766A1421CF - 73fde84addc50bd3"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "player1Action"
-                  moduleName = "Final Project"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Setup/Player1Action.c"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "111"
-                  endingLineNumber = "111"
-                  offsetFromSymbolStart = "744">
-               </Location>
-               <Location
-                  uuid = "63E05258-E7AD-46E9-B254-55766A1421CF - 73fde84addc50adb"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "player1Action"
-                  moduleName = "Final Project"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Setup/Player1Action.c"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "119"
-                  endingLineNumber = "119"
-                  offsetFromSymbolStart = "812">
-               </Location>
-               <Location
-                  uuid = "63E05258-E7AD-46E9-B254-55766A1421CF - 73fde84addc50b1d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "player1Action"
-                  moduleName = "Final Project"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Setup/Player1Action.c"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "117"
-                  endingLineNumber = "117"
-                  offsetFromSymbolStart = "824">
-               </Location>
-               <Location
-                  uuid = "63E05258-E7AD-46E9-B254-55766A1421CF - 73fde84addc50b7e"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "player1Action"
-                  moduleName = "Final Project"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Setup/Player1Action.c"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "116"
-                  endingLineNumber = "116"
-                  offsetFromSymbolStart = "824">
-               </Location>
-               <Location
-                  uuid = "63E05258-E7AD-46E9-B254-55766A1421CF - 73fde84addc50a99"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "player1Action"
-                  moduleName = "Final Project"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Setup/Player1Action.c"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "121"
-                  endingLineNumber = "121"
-                  offsetFromSymbolStart = "892">
-               </Location>
-               <Location
-                  uuid = "63E05258-E7AD-46E9-B254-55766A1421CF - 73fde84addc50ab8"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "player1Action"
-                  moduleName = "Final Project"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Setup/Player1Action.c"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "122"
-                  endingLineNumber = "122"
-                  offsetFromSymbolStart = "888">
-               </Location>
-               <Location
-                  uuid = "63E05258-E7AD-46E9-B254-55766A1421CF - 73fde84addc50d40"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "player1Action"
-                  moduleName = "Final Project"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Setup/Player1Action.c"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "130"
-                  endingLineNumber = "130"
-                  offsetFromSymbolStart = "1000">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "A18100D9-68D7-4E02-8B64-8A014429519F"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Function/Determineplay.c"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "50"
-            endingLineNumber = "50"
-            landmarkName = "determineplay(p, c, userinp, numcard, numhand)"
-            landmarkType = "9">
-            <Locations>
-               <Location
-                  uuid = "A18100D9-68D7-4E02-8B64-8A014429519F - 308a5b63d8a4ea6a"
+                  uuid = "B6561559-B0D3-4884-A1D8-834BD5024EEF - 308a5b63d8a4eb01"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -3942,12 +4056,12 @@
                   urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "46"
-                  endingLineNumber = "46"
-                  offsetFromSymbolStart = "260">
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "408">
                </Location>
                <Location
-                  uuid = "A18100D9-68D7-4E02-8B64-8A014429519F - 308a5b63d8a4ea4b"
+                  uuid = "B6561559-B0D3-4884-A1D8-834BD5024EEF - 308a5b63d8a4ebdf"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -3957,12 +4071,12 @@
                   urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "47"
-                  endingLineNumber = "47"
-                  offsetFromSymbolStart = "260">
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "408">
                </Location>
                <Location
-                  uuid = "A18100D9-68D7-4E02-8B64-8A014429519F - 308a5b63d8a4ea4b"
+                  uuid = "B6561559-B0D3-4884-A1D8-834BD5024EEF - 308a5b63d8a4ebdf"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -3972,9 +4086,9 @@
                   urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "47"
-                  endingLineNumber = "47"
-                  offsetFromSymbolStart = "264">
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "412">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -3989,13 +4103,13 @@
             filePath = "Function/Match-id-Command.c"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "55"
-            endingLineNumber = "55"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
             landmarkName = "match_id_command(p_turn, p_affected, c, dt, s, numbcard, numbhand, userinp, id)"
             landmarkType = "9">
             <Locations>
                <Location
-                  uuid = "F2CA884B-805B-46CC-AA72-6E58556CA098 - 9e21b49714e26ba"
+                  uuid = "F2CA884B-805B-46CC-AA72-6E58556CA098 - 9e21b49714e2a9a"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -4005,12 +4119,12 @@
                   urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Match-id-Command.c"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "58"
-                  endingLineNumber = "58"
-                  offsetFromSymbolStart = "320">
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "536">
                </Location>
                <Location
-                  uuid = "F2CA884B-805B-46CC-AA72-6E58556CA098 - 9e21b49714e293e"
+                  uuid = "F2CA884B-805B-46CC-AA72-6E58556CA098 - 9e21b49714e2d7d"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -4020,9 +4134,579 @@
                   urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Match-id-Command.c"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "62"
-                  endingLineNumber = "62"
-                  offsetFromSymbolStart = "376">
+                  startingLineNumber = "91"
+                  endingLineNumber = "91"
+                  offsetFromSymbolStart = "540">
+               </Location>
+               <Location
+                  uuid = "F2CA884B-805B-46CC-AA72-6E58556CA098 - 9e21b49714e2d7d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "match_id_command"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Match-id-Command.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "91"
+                  endingLineNumber = "91"
+                  offsetFromSymbolStart = "552">
+               </Location>
+               <Location
+                  uuid = "F2CA884B-805B-46CC-AA72-6E58556CA098 - 9e21b49714e2d7d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "match_id_command"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Match-id-Command.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "91"
+                  endingLineNumber = "91"
+                  offsetFromSymbolStart = "548">
+               </Location>
+               <Location
+                  uuid = "F2CA884B-805B-46CC-AA72-6E58556CA098 - 9e21b49714e2d5c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "match_id_command"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Match-id-Command.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "92"
+                  endingLineNumber = "92"
+                  offsetFromSymbolStart = "552">
+               </Location>
+               <Location
+                  uuid = "F2CA884B-805B-46CC-AA72-6E58556CA098 - 9e21b49714e2df1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "match_id_command"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Match-id-Command.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "95"
+                  endingLineNumber = "95"
+                  offsetFromSymbolStart = "592">
+               </Location>
+               <Location
+                  uuid = "F2CA884B-805B-46CC-AA72-6E58556CA098 - 9e21b49714e2d5c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "match_id_command"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Match-id-Command.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "92"
+                  endingLineNumber = "92"
+                  offsetFromSymbolStart = "628">
+               </Location>
+               <Location
+                  uuid = "F2CA884B-805B-46CC-AA72-6E58556CA098 - 9e21b49714e2db3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "match_id_command"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Match-id-Command.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "244">
+               </Location>
+               <Location
+                  uuid = "F2CA884B-805B-46CC-AA72-6E58556CA098 - 9e21b49714e2c75"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "match_id_command"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Match-id-Command.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "99"
+                  endingLineNumber = "99"
+                  offsetFromSymbolStart = "264">
+               </Location>
+               <Location
+                  uuid = "F2CA884B-805B-46CC-AA72-6E58556CA098 - 9e21b49714e2c54"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "match_id_command"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Match-id-Command.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "100"
+                  endingLineNumber = "100"
+                  offsetFromSymbolStart = "264">
+               </Location>
+               <Location
+                  uuid = "F2CA884B-805B-46CC-AA72-6E58556CA098 - 9e21b49714e2abb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "match_id_command"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Match-id-Command.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "89"
+                  endingLineNumber = "89"
+                  offsetFromSymbolStart = "632">
+               </Location>
+               <Location
+                  uuid = "F2CA884B-805B-46CC-AA72-6E58556CA098 - 9e21b49714e2d7d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "match_id_command"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Match-id-Command.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "91"
+                  endingLineNumber = "91"
+                  offsetFromSymbolStart = "596">
+               </Location>
+               <Location
+                  uuid = "F2CA884B-805B-46CC-AA72-6E58556CA098 - 9e21b49714e2d7d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "match_id_command"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Match-id-Command.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "91"
+                  endingLineNumber = "91"
+                  offsetFromSymbolStart = "592">
+               </Location>
+               <Location
+                  uuid = "F2CA884B-805B-46CC-AA72-6E58556CA098 - 9e21b49714e2a9a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "match_id_command"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Match-id-Command.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "584">
+               </Location>
+               <Location
+                  uuid = "F2CA884B-805B-46CC-AA72-6E58556CA098 - 9e21b49714e2a9a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "match_id_command"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Match-id-Command.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "588">
+               </Location>
+               <Location
+                  uuid = "F2CA884B-805B-46CC-AA72-6E58556CA098 - 9e21b49714e2db3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "match_id_command"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Match-id-Command.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "608">
+               </Location>
+               <Location
+                  uuid = "F2CA884B-805B-46CC-AA72-6E58556CA098 - 9e21b49714e2db3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "match_id_command"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Match-id-Command.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "600">
+               </Location>
+               <Location
+                  uuid = "F2CA884B-805B-46CC-AA72-6E58556CA098 - 9e21b49714e2db3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "match_id_command"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Match-id-Command.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "596">
+               </Location>
+               <Location
+                  uuid = "F2CA884B-805B-46CC-AA72-6E58556CA098 - 9e21b49714e2db3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "match_id_command"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Match-id-Command.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "588">
+               </Location>
+               <Location
+                  uuid = "F2CA884B-805B-46CC-AA72-6E58556CA098 - 9e21b49714e2db3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "match_id_command"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Match-id-Command.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "612">
+               </Location>
+               <Location
+                  uuid = "F2CA884B-805B-46CC-AA72-6E58556CA098 - 9e21b49714e2d92"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "match_id_command"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Match-id-Command.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "98"
+                  endingLineNumber = "98"
+                  offsetFromSymbolStart = "620">
+               </Location>
+               <Location
+                  uuid = "F2CA884B-805B-46CC-AA72-6E58556CA098 - 9e21b49714e2dd0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "match_id_command"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Match-id-Command.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "96"
+                  endingLineNumber = "96"
+                  offsetFromSymbolStart = "572">
+               </Location>
+               <Location
+                  uuid = "F2CA884B-805B-46CC-AA72-6E58556CA098 - 9e21b49714e2db3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "match_id_command"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Match-id-Command.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "564">
+               </Location>
+               <Location
+                  uuid = "F2CA884B-805B-46CC-AA72-6E58556CA098 - 9e21b49714e2db3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "match_id_command"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Match-id-Command.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "560">
+               </Location>
+               <Location
+                  uuid = "F2CA884B-805B-46CC-AA72-6E58556CA098 - 9e21b49714e2db3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "match_id_command"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Match-id-Command.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "568">
+               </Location>
+               <Location
+                  uuid = "F2CA884B-805B-46CC-AA72-6E58556CA098 - 9e21b49714e2c54"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "match_id_command"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Match-id-Command.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "100"
+                  endingLineNumber = "100"
+                  offsetFromSymbolStart = "656">
+               </Location>
+               <Location
+                  uuid = "F2CA884B-805B-46CC-AA72-6E58556CA098 - 9e21b49714e2c8b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "match_id_command"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Match-id-Command.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "105"
+                  endingLineNumber = "105"
+                  offsetFromSymbolStart = "712">
+               </Location>
+               <Location
+                  uuid = "F2CA884B-805B-46CC-AA72-6E58556CA098 - 9e21b49714e2c8b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "match_id_command"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Match-id-Command.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "105"
+                  endingLineNumber = "105"
+                  offsetFromSymbolStart = "704">
+               </Location>
+               <Location
+                  uuid = "F2CA884B-805B-46CC-AA72-6E58556CA098 - 9e21b49714e2f2c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "match_id_command"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Match-id-Command.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "108"
+                  endingLineNumber = "108"
+                  offsetFromSymbolStart = "744">
+               </Location>
+               <Location
+                  uuid = "F2CA884B-805B-46CC-AA72-6E58556CA098 - 9e21b49714e2f0f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "match_id_command"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Match-id-Command.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "109"
+                  endingLineNumber = "109"
+                  offsetFromSymbolStart = "744">
+               </Location>
+               <Location
+                  uuid = "F2CA884B-805B-46CC-AA72-6E58556CA098 - 9e21b49714e2fc1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "match_id_command"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Match-id-Command.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "111"
+                  endingLineNumber = "111"
+                  offsetFromSymbolStart = "684">
+               </Location>
+               <Location
+                  uuid = "F2CA884B-805B-46CC-AA72-6E58556CA098 - 9e21b49714e2874"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "match_id_command"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Match-id-Command.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "332">
+               </Location>
+               <Location
+                  uuid = "F2CA884B-805B-46CC-AA72-6E58556CA098 - 9e21b49714e2874"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "match_id_command"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Match-id-Command.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "340">
+               </Location>
+               <Location
+                  uuid = "F2CA884B-805B-46CC-AA72-6E58556CA098 - 9e21b49714e2857"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "match_id_command"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Match-id-Command.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "344">
+               </Location>
+               <Location
+                  uuid = "F2CA884B-805B-46CC-AA72-6E58556CA098 - 9e21b49714e2857"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "match_id_command"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Match-id-Command.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "332">
+               </Location>
+               <Location
+                  uuid = "F2CA884B-805B-46CC-AA72-6E58556CA098 - 9e21b49714e2874"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "match_id_command"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Match-id-Command.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "344">
+               </Location>
+               <Location
+                  uuid = "F2CA884B-805B-46CC-AA72-6E58556CA098 - 9e21b49714e2874"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "match_id_command"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Match-id-Command.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "336">
+               </Location>
+               <Location
+                  uuid = "F2CA884B-805B-46CC-AA72-6E58556CA098 - 9e21b49714e2874"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "match_id_command"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Match-id-Command.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "324">
+               </Location>
+               <Location
+                  uuid = "F2CA884B-805B-46CC-AA72-6E58556CA098 - 9e21b49714e2995"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "match_id_command"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Match-id-Command.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "324">
+               </Location>
+               <Location
+                  uuid = "F2CA884B-805B-46CC-AA72-6E58556CA098 - 9e21b49714e2995"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "match_id_command"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Match-id-Command.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "336">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -4031,15 +4715,1476 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "ED56C0B6-99EF-4FB4-A0BE-718F46C4D97A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Function/Match-id-Command.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "match_id_command(p_turn, p_affected, c, dt, s, numbcard, numbhand, userinp, id)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D26F868A-B6B4-4125-B8AB-5F72BC583D03"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Function/Setup/Player1Action.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "117"
+            endingLineNumber = "117"
+            landmarkName = "player1Action(p1, p2, c, s, dt)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "D26F868A-B6B4-4125-B8AB-5F72BC583D03 - 73fde84addc50b5f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "player1Action"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Setup/Player1Action.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "115"
+                  endingLineNumber = "115"
+                  offsetFromSymbolStart = "972">
+               </Location>
+               <Location
+                  uuid = "D26F868A-B6B4-4125-B8AB-5F72BC583D03 - 73fde84addc50b1d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "player1Action"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Setup/Player1Action.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "117"
+                  endingLineNumber = "117"
+                  offsetFromSymbolStart = "996">
+               </Location>
+               <Location
+                  uuid = "D26F868A-B6B4-4125-B8AB-5F72BC583D03 - 73fde84addc50b3c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "player1Action"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Setup/Player1Action.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "118"
+                  endingLineNumber = "118"
+                  offsetFromSymbolStart = "996">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6851537B-236F-4A98-8ADD-145BD3AEFCE8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Function/Determineplay.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "determineplay(p, c, userinp, numcard, numhand)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "6851537B-236F-4A98-8ADD-145BD3AEFCE8 - 308a5b63d8a4ecf6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "552">
+               </Location>
+               <Location
+                  uuid = "6851537B-236F-4A98-8ADD-145BD3AEFCE8 - 308a5b63d8a4ed30"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "584">
+               </Location>
+               <Location
+                  uuid = "6851537B-236F-4A98-8ADD-145BD3AEFCE8 - 308a5b63d8a4ecf6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "588">
+               </Location>
+               <Location
+                  uuid = "6851537B-236F-4A98-8ADD-145BD3AEFCE8 - 308a5b63d8a4ec95"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "608">
+               </Location>
+               <Location
+                  uuid = "6851537B-236F-4A98-8ADD-145BD3AEFCE8 - 308a5b63d8a4ed53"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "640">
+               </Location>
+               <Location
+                  uuid = "6851537B-236F-4A98-8ADD-145BD3AEFCE8 - 308a5b63d8a4ed30"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "624">
+               </Location>
+               <Location
+                  uuid = "6851537B-236F-4A98-8ADD-145BD3AEFCE8 - 308a5b63d8a4ed30"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "644">
+               </Location>
+               <Location
+                  uuid = "6851537B-236F-4A98-8ADD-145BD3AEFCE8 - 308a5b63d8a4ed30"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "664">
+               </Location>
+               <Location
+                  uuid = "6851537B-236F-4A98-8ADD-145BD3AEFCE8 - 308a5b63d8a4ed30"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "660">
+               </Location>
+               <Location
+                  uuid = "6851537B-236F-4A98-8ADD-145BD3AEFCE8 - 308a5b63d8a4ed30"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "640">
+               </Location>
+               <Location
+                  uuid = "6851537B-236F-4A98-8ADD-145BD3AEFCE8 - 308a5b63d8a4ed30"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "628">
+               </Location>
+               <Location
+                  uuid = "6851537B-236F-4A98-8ADD-145BD3AEFCE8 - 308a5b63d8a4edce"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "644">
+               </Location>
+               <Location
+                  uuid = "6851537B-236F-4A98-8ADD-145BD3AEFCE8 - 308a5b63d8a4edce"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "624">
+               </Location>
+               <Location
+                  uuid = "6851537B-236F-4A98-8ADD-145BD3AEFCE8 - 308a5b63d8a4edce"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "628">
+               </Location>
+               <Location
+                  uuid = "6851537B-236F-4A98-8ADD-145BD3AEFCE8 - 308a5b63d8a4ee08"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "80"
+                  endingLineNumber = "80"
+                  offsetFromSymbolStart = "772">
+               </Location>
+               <Location
+                  uuid = "6851537B-236F-4A98-8ADD-145BD3AEFCE8 - 308a5b63d8a4ee08"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "80"
+                  endingLineNumber = "80"
+                  offsetFromSymbolStart = "768">
+               </Location>
+               <Location
+                  uuid = "6851537B-236F-4A98-8ADD-145BD3AEFCE8 - 308a5b63d8a4edaf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "75"
+                  endingLineNumber = "75"
+                  offsetFromSymbolStart = "632">
+               </Location>
+               <Location
+                  uuid = "6851537B-236F-4A98-8ADD-145BD3AEFCE8 - 308a5b63d8a4ed8c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "628">
+               </Location>
+               <Location
+                  uuid = "6851537B-236F-4A98-8ADD-145BD3AEFCE8 - 308a5b63d8a4ee6d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "624">
+               </Location>
+               <Location
+                  uuid = "6851537B-236F-4A98-8ADD-145BD3AEFCE8 - 308a5b63d8a4edce"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "604">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "67FFCBF4-35B0-4171-AA82-5B0206ED1D49"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Function/Determineplay.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "determineplay(p, c, userinp, numcard, numhand)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "67FFCBF4-35B0-4171-AA82-5B0206ED1D49 - 308a5b63d8a4ed53"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "692">
+               </Location>
+               <Location
+                  uuid = "67FFCBF4-35B0-4171-AA82-5B0206ED1D49 - 308a5b63d8a4ed30"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "692">
+               </Location>
+               <Location
+                  uuid = "67FFCBF4-35B0-4171-AA82-5B0206ED1D49 - 308a5b63d8a4eea7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "83"
+                  endingLineNumber = "83"
+                  offsetFromSymbolStart = "756">
+               </Location>
+               <Location
+                  uuid = "67FFCBF4-35B0-4171-AA82-5B0206ED1D49 - 308a5b63d8a4ed30"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "728">
+               </Location>
+               <Location
+                  uuid = "67FFCBF4-35B0-4171-AA82-5B0206ED1D49 - 308a5b63d8a4edaf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "75"
+                  endingLineNumber = "75"
+                  offsetFromSymbolStart = "748">
+               </Location>
+               <Location
+                  uuid = "67FFCBF4-35B0-4171-AA82-5B0206ED1D49 - 308a5b63d8a4ee6d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "780">
+               </Location>
+               <Location
+                  uuid = "67FFCBF4-35B0-4171-AA82-5B0206ED1D49 - 308a5b63d8a4ee4a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "78"
+                  endingLineNumber = "78"
+                  offsetFromSymbolStart = "764">
+               </Location>
+               <Location
+                  uuid = "67FFCBF4-35B0-4171-AA82-5B0206ED1D49 - 308a5b63d8a4ee4a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "78"
+                  endingLineNumber = "78"
+                  offsetFromSymbolStart = "784">
+               </Location>
+               <Location
+                  uuid = "67FFCBF4-35B0-4171-AA82-5B0206ED1D49 - 308a5b63d8a4ee4a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "78"
+                  endingLineNumber = "78"
+                  offsetFromSymbolStart = "804">
+               </Location>
+               <Location
+                  uuid = "67FFCBF4-35B0-4171-AA82-5B0206ED1D49 - 308a5b63d8a4ee4a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "78"
+                  endingLineNumber = "78"
+                  offsetFromSymbolStart = "800">
+               </Location>
+               <Location
+                  uuid = "67FFCBF4-35B0-4171-AA82-5B0206ED1D49 - 308a5b63d8a4ee4a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "78"
+                  endingLineNumber = "78"
+                  offsetFromSymbolStart = "820">
+               </Location>
+               <Location
+                  uuid = "67FFCBF4-35B0-4171-AA82-5B0206ED1D49 - 308a5b63d8a4ee4a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "78"
+                  endingLineNumber = "78"
+                  offsetFromSymbolStart = "788">
+               </Location>
+               <Location
+                  uuid = "67FFCBF4-35B0-4171-AA82-5B0206ED1D49 - 308a5b63d8a4ee08"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "80"
+                  endingLineNumber = "80"
+                  offsetFromSymbolStart = "804">
+               </Location>
+               <Location
+                  uuid = "67FFCBF4-35B0-4171-AA82-5B0206ED1D49 - 308a5b63d8a4ee08"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "80"
+                  endingLineNumber = "80"
+                  offsetFromSymbolStart = "784">
+               </Location>
+               <Location
+                  uuid = "67FFCBF4-35B0-4171-AA82-5B0206ED1D49 - 308a5b63d8a4ee08"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "80"
+                  endingLineNumber = "80"
+                  offsetFromSymbolStart = "788">
+               </Location>
+               <Location
+                  uuid = "67FFCBF4-35B0-4171-AA82-5B0206ED1D49 - 308a5b63d8a4ef42"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "932">
+               </Location>
+               <Location
+                  uuid = "67FFCBF4-35B0-4171-AA82-5B0206ED1D49 - 308a5b63d8a4ef42"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "928">
+               </Location>
+               <Location
+                  uuid = "67FFCBF4-35B0-4171-AA82-5B0206ED1D49 - 308a5b63d8a4eee9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "81"
+                  endingLineNumber = "81"
+                  offsetFromSymbolStart = "792">
+               </Location>
+               <Location
+                  uuid = "67FFCBF4-35B0-4171-AA82-5B0206ED1D49 - 308a5b63d8a4eec6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "788">
+               </Location>
+               <Location
+                  uuid = "67FFCBF4-35B0-4171-AA82-5B0206ED1D49 - 308a5b63d8a4eea7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "83"
+                  endingLineNumber = "83"
+                  offsetFromSymbolStart = "784">
+               </Location>
+               <Location
+                  uuid = "67FFCBF4-35B0-4171-AA82-5B0206ED1D49 - 308a5b63d8a4ee08"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "80"
+                  endingLineNumber = "80"
+                  offsetFromSymbolStart = "744">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "72BF5145-D76E-44F4-8178-2CF2EE5E3796"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Function/Determineplay.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "95"
+            endingLineNumber = "95"
+            landmarkName = "determineplay(p, c, userinp, numcard, numhand)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "72BF5145-D76E-44F4-8178-2CF2EE5E3796 - 308a5b63d8a4efe1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "89"
+                  endingLineNumber = "89"
+                  offsetFromSymbolStart = "952">
+               </Location>
+               <Location
+                  uuid = "72BF5145-D76E-44F4-8178-2CF2EE5E3796 - 308a5b63d8a4f094"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "100"
+                  endingLineNumber = "100"
+                  offsetFromSymbolStart = "1016">
+               </Location>
+               <Location
+                  uuid = "72BF5145-D76E-44F4-8178-2CF2EE5E3796 - 308a5b63d8a4efe1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "89"
+                  endingLineNumber = "89"
+                  offsetFromSymbolStart = "988">
+               </Location>
+               <Location
+                  uuid = "72BF5145-D76E-44F4-8178-2CF2EE5E3796 - 308a5b63d8a4ef9c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "92"
+                  endingLineNumber = "92"
+                  offsetFromSymbolStart = "1008">
+               </Location>
+               <Location
+                  uuid = "72BF5145-D76E-44F4-8178-2CF2EE5E3796 - 308a5b63d8a4f05a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "94"
+                  endingLineNumber = "94"
+                  offsetFromSymbolStart = "1040">
+               </Location>
+               <Location
+                  uuid = "72BF5145-D76E-44F4-8178-2CF2EE5E3796 - 308a5b63d8a4f03b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "95"
+                  endingLineNumber = "95"
+                  offsetFromSymbolStart = "1024">
+               </Location>
+               <Location
+                  uuid = "72BF5145-D76E-44F4-8178-2CF2EE5E3796 - 308a5b63d8a4f03b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "95"
+                  endingLineNumber = "95"
+                  offsetFromSymbolStart = "1044">
+               </Location>
+               <Location
+                  uuid = "72BF5145-D76E-44F4-8178-2CF2EE5E3796 - 308a5b63d8a4f03b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "95"
+                  endingLineNumber = "95"
+                  offsetFromSymbolStart = "1064">
+               </Location>
+               <Location
+                  uuid = "72BF5145-D76E-44F4-8178-2CF2EE5E3796 - 308a5b63d8a4f03b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "95"
+                  endingLineNumber = "95"
+                  offsetFromSymbolStart = "1060">
+               </Location>
+               <Location
+                  uuid = "72BF5145-D76E-44F4-8178-2CF2EE5E3796 - 308a5b63d8a4f03b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "95"
+                  endingLineNumber = "95"
+                  offsetFromSymbolStart = "1080">
+               </Location>
+               <Location
+                  uuid = "72BF5145-D76E-44F4-8178-2CF2EE5E3796 - 308a5b63d8a4f03b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "95"
+                  endingLineNumber = "95"
+                  offsetFromSymbolStart = "1048">
+               </Location>
+               <Location
+                  uuid = "72BF5145-D76E-44F4-8178-2CF2EE5E3796 - 308a5b63d8a4f0f9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "1064">
+               </Location>
+               <Location
+                  uuid = "72BF5145-D76E-44F4-8178-2CF2EE5E3796 - 308a5b63d8a4f0f9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "1044">
+               </Location>
+               <Location
+                  uuid = "72BF5145-D76E-44F4-8178-2CF2EE5E3796 - 308a5b63d8a4f0f9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "1048">
+               </Location>
+               <Location
+                  uuid = "72BF5145-D76E-44F4-8178-2CF2EE5E3796 - 308a5b63d8a4f133"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "103"
+                  endingLineNumber = "103"
+                  offsetFromSymbolStart = "1192">
+               </Location>
+               <Location
+                  uuid = "72BF5145-D76E-44F4-8178-2CF2EE5E3796 - 308a5b63d8a4f133"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "103"
+                  endingLineNumber = "103"
+                  offsetFromSymbolStart = "1188">
+               </Location>
+               <Location
+                  uuid = "72BF5145-D76E-44F4-8178-2CF2EE5E3796 - 308a5b63d8a4f0d6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "98"
+                  endingLineNumber = "98"
+                  offsetFromSymbolStart = "1052">
+               </Location>
+               <Location
+                  uuid = "72BF5145-D76E-44F4-8178-2CF2EE5E3796 - 308a5b63d8a4f0b7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "99"
+                  endingLineNumber = "99"
+                  offsetFromSymbolStart = "1048">
+               </Location>
+               <Location
+                  uuid = "72BF5145-D76E-44F4-8178-2CF2EE5E3796 - 308a5b63d8a4f094"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "100"
+                  endingLineNumber = "100"
+                  offsetFromSymbolStart = "1044">
+               </Location>
+               <Location
+                  uuid = "72BF5145-D76E-44F4-8178-2CF2EE5E3796 - 308a5b63d8a4f0f9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "determineplay"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Determineplay.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "1004">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3371BE5C-0781-47D7-8909-30E679ACF6D6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Function/Determineplay.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "determineplay(p, c, userinp, numcard, numhand)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1B405BE8-68C3-4685-A721-61ABDF08DD7B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Function/DeleteCard.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "deletecard(p_turn, current)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "499BE3AD-5656-469B-B0DA-1E5AD818A9BB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Function/Setup/Player1Action.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
+            landmarkName = "player1Action(p1, p2, c, s, dt)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "29872A08-C02E-4819-A692-8A907CFF4B41"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Function/Match-id-Command.c"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "34"
-            endingLineNumber = "34"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
             landmarkName = "match_id_command(p_turn, p_affected, c, dt, s, numbcard, numbhand, userinp, id)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "29872A08-C02E-4819-A692-8A907CFF4B41 - 9e21b49714e29f0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "match_id_command"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Match-id-Command.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "312">
+               </Location>
+               <Location
+                  uuid = "29872A08-C02E-4819-A692-8A907CFF4B41 - 9e21b49714e2911"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "match_id_command"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Match-id-Command.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "312">
+               </Location>
+               <Location
+                  uuid = "29872A08-C02E-4819-A692-8A907CFF4B41 - 9e21b49714e2911"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "match_id_command"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Match-id-Command.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "324">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "33602A89-C887-4AE8-A229-E6D4BCEEA9B0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Function/Match-id-Command.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "match_id_command(p_turn, p_affected, c, dt, s, numbcard, numbhand, userinp, id)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "33602A89-C887-4AE8-A229-E6D4BCEEA9B0 - 9e21b49714e295f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "match_id_command"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Match-id-Command.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "292">
+               </Location>
+               <Location
+                  uuid = "33602A89-C887-4AE8-A229-E6D4BCEEA9B0 - 9e21b49714e297c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "match_id_command"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/Match-id-Command.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "292">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B19426E0-A2DD-41F8-A899-14CE3AA58319"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Function/Display.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "display(d)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ECEEBB11-9BFB-4C29-9668-BEE598B35BE2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Function/DeleteCard.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "deletecard(p_turn, current)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "ECEEBB11-9BFB-4C29-9668-BEE598B35BE2 - 42e8dadeef469b6f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "deletecard"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/DeleteCard.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "ECEEBB11-9BFB-4C29-9668-BEE598B35BE2 - 42e8dadeef469b4e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "deletecard"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/DeleteCard.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "68">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "99C59907-D318-43CC-8380-C919D6549C10"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Function/DeleteCard.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "deletecard(p_turn, current)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "99C59907-D318-43CC-8380-C919D6549C10 - 42e8dadeef469b00"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "deletecard"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/DeleteCard.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  uuid = "99C59907-D318-43CC-8380-C919D6549C10 - 42e8dadeef469ae3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "deletecard"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/DeleteCard.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  uuid = "99C59907-D318-43CC-8380-C919D6549C10 - 42e8dadeef469ac2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "deletecard"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/DeleteCard.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "92">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "191359BA-210C-452C-8938-33F5EF06C6CE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Function/DeleteCard.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "deletecard(p_turn, current)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "191359BA-210C-452C-8938-33F5EF06C6CE - 42e8dadeef469dba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "deletecard"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/DeleteCard.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "156">
+               </Location>
+               <Location
+                  uuid = "191359BA-210C-452C-8938-33F5EF06C6CE - 42e8dadeef469d7c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "deletecard"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/DeleteCard.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "176">
+               </Location>
+               <Location
+                  uuid = "191359BA-210C-452C-8938-33F5EF06C6CE - 42e8dadeef469d7c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "deletecard"
+                  moduleName = "Final Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/man/Downloads/Dosgame/ECE-175-Final-Project-/Function/DeleteCard.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "196">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D20FDF77-E4DA-4B11-B965-64FC492ED43B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Function/DeleteCard.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "deletecard(p_turn, current)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "61CB2A0F-D03C-4A41-A893-96C46FE8F405"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Function/DeleteCard.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "deletecard(p_turn, current)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B938535B-6460-4F41-BD36-EFE80E4D8D51"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Function/DeleteCard.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "deletecard(p_turn, current)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "74D3424D-1704-45D8-832A-270B0A2D0605"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Function/DeleteCard.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "deletecard(p_turn, current)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "99572BAA-D97A-40B3-A441-8EDD3D182BC7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Function/DeleteCard.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "deletecard(p_turn, current)"
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
