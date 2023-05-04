@@ -2,7 +2,8 @@
 //  main.c
 //  Final Project
 //
-//  Created by Man Doan on 4/21/23.
+//  Created by Man Doan and Emilio Landetta on 4/21/23.
+//
 //
 
 #define _CRT_SECURE_NO_WARNINGS
